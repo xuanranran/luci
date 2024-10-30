@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"PO-Revision-Date: 2024-09-27 22:15+0000\n"
+"PO-Revision-Date: 2024-10-16 09:51+0000\n"
 "Last-Translator: Džiugas Januševičius <dziugas1959@hotmail.com>\n"
 "Language-Team: Lithuanian <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationsbanip/lt/>\n"
@@ -9,9 +9,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"(n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 5.8-dev\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && ("
+"n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Weblate 5.8-rc\n"
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/setreport.js:78
 msgid "-- Set Selection --"
@@ -680,8 +680,7 @@ msgstr "Apdorojamas žurnalas"
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:676
 msgid "Profile used by 'msmtp' for banIP notification E-Mails."
-msgstr ""
-"Profilis, kurį naudoja „msmtp“, skirta – „banIP“ el. pašto pranešimams."
+msgstr "Profilis, kurį naudoja „msmtp“, skirta – „banIP“ el. pašto pranešimams."
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:209
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:222
@@ -1129,77 +1128,39 @@ msgstr "atmesti"
 msgid "warn"
 msgstr "įspėti"
 
-#~ msgid "-100"
-#~ msgstr "-100"
+#~ msgid ""
+#~ "With this editor you can upload your local custom feed file or fill up an "
+#~ "initial one (a 1:1 copy of the version shipped with the package). The "
+#~ "file is located at '/etc/banip/banip.custom.feeds'. Then you can edit "
+#~ "this file, delete entries, add new ones or make a local backup. To go "
+#~ "back to the maintainers version just empty the custom feed file again (do "
+#~ "not delete it!)."
+#~ msgstr ""
+#~ "Su šiuo redaktoriumi, Jūs galite įkelti savo vietinį pasirinktinį "
+#~ "padavimo failą, arba užpildyti pradinį (1:1 kopija šio paketo įtraukiamos "
+#~ "versijos). Šis failas yra randamas – „/etc/banip/banip.custom.feeds“. "
+#~ "Tada Jūs galite redaguoti šį failą, ištrinti jo įvestis, pridėti naujas "
+#~ "arba sukurti vietinę atsarginę kopiją. Norint sugrįžti atgal į laikomąją "
+#~ "versiją, tiesiog ištuštinkite pasirinktinį padavimo failą iš naujo "
+#~ "(neištrinkite jo!)."
 
-#~ msgid "-200 (default)"
-#~ msgstr "-200 (numatytas)"
+#~ msgid "Apply & Restart"
+#~ msgstr "Paleisti iš naujo"
 
-#~ msgid "-300"
-#~ msgstr "-300"
+#~ msgid "No banIP related firewall logs yet!"
+#~ msgstr "Nėra „banIP“ susijusių užkardos žurnalų (kol kas)!"
 
-#~ msgid "-400"
-#~ msgstr "-400"
+#~ msgid "Chain/Set Settings"
+#~ msgstr "Grandinė/Nustatyti nustatymus"
 
-#~ msgid "0"
-#~ msgstr "0"
+#~ msgid "NFT Chain Priority"
+#~ msgstr "„NFT“ grandinės prioritetas"
 
-#~ msgid "0 (disable)"
-#~ msgstr "0 (išjungti)"
+#~ msgid "NFT Set Policy"
+#~ msgstr "Nustatyti „NTF“ politiką"
 
-#~ msgid "1"
-#~ msgstr "1"
+#~ msgid "auto-added to allowlist today"
+#~ msgstr "šiandien automatiškai pridėtas prie leidžiamojo sąrašo"
 
-#~ msgid "10"
-#~ msgstr "10"
-
-#~ msgid "100 (default)"
-#~ msgstr "100 (numatytas)"
-
-#~ msgid "1000"
-#~ msgstr "1000"
-
-#~ msgid "1024 (default)"
-#~ msgstr "1024 (numatytas)"
-
-#~ msgid "20"
-#~ msgstr "20"
-
-#~ msgid "2048"
-#~ msgstr "2048"
-
-#~ msgid "250"
-#~ msgstr "250"
-
-#~ msgid "3"
-#~ msgstr "3"
-
-#~ msgid "4096"
-#~ msgstr "4096"
-
-#~ msgid "5 (default)"
-#~ msgstr "5 (numatytas)"
-
-#~ msgid "50"
-#~ msgstr "50"
-
-#~ msgid "500"
-#~ msgstr "500"
-
-#~ msgid "512"
-#~ msgstr "512"
-
-#~ msgid "Normal Priority (default)"
-#~ msgstr "Normalus prioritetas (numatytas)"
-
-#~ msgid "Subnet (default)"
-#~ msgstr "Potinklis (numatytas/-a)"
-
-#~ msgid "drop (default)"
-#~ msgstr "mesti (numatytas)"
-
-#~ msgid "memory (default)"
-#~ msgstr "atmintis (numatytas)"
-
-#~ msgid "warn (default)"
-#~ msgstr "įspėti (numatytas)"
+#~ msgid "auto-added to blocklist today"
+#~ msgstr "šiandien automatiškai pridėtas prie blokavimo sąrašo"

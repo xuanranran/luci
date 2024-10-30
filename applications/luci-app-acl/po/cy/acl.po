@@ -143,3 +143,6 @@ msgstr "rhannol (%d/%d)"
 msgctxt "Only read permissions granted"
 msgid "readonly"
 msgstr "darllen yn unig"
+
+#~ msgid "Use plain password"
+#~ msgstr "Defnyddio cyfrinair plaen"

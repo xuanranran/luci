@@ -97,18 +97,6 @@ msgstr ""
 msgid "Identification"
 msgstr ""
 
-#: applications/luci-app-xinetd/htdocs/luci-static/resources/view/xinetd/xinetd.js:212
-msgid ""
-"Informations that should be logged for this service in case of a failed "
-"connection"
-msgstr ""
-
-#: applications/luci-app-xinetd/htdocs/luci-static/resources/view/xinetd/xinetd.js:203
-msgid ""
-"Informations that should be logged for this service in case of successful "
-"connection"
-msgstr ""
-
 #: applications/luci-app-xinetd/htdocs/luci-static/resources/view/xinetd/xinetd.js:84
 #: applications/luci-app-xinetd/htdocs/luci-static/resources/view/xinetd/xinetd.js:137
 msgid "Invalid character"
@@ -292,6 +280,14 @@ msgstr ""
 #: applications/luci-app-xinetd/htdocs/luci-static/resources/view/xinetd/xinetd.js:206
 #: applications/luci-app-xinetd/htdocs/luci-static/resources/view/xinetd/xinetd.js:214
 msgid "User ID of the remote user"
+msgstr ""
+
+#: applications/luci-app-xinetd/htdocs/luci-static/resources/view/xinetd/xinetd.js:212
+msgid "What to log for failed connections"
+msgstr ""
+
+#: applications/luci-app-xinetd/htdocs/luci-static/resources/view/xinetd/xinetd.js:203
+msgid "What to log for successful connections"
 msgstr ""
 
 #: applications/luci-app-xinetd/root/usr/share/luci/menu.d/luci-app-xinetd.json:3

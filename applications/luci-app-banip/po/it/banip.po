@@ -1176,77 +1176,283 @@ msgstr "rifiuta (reject)"
 msgid "warn"
 msgstr "avviso"
 
-#~ msgid "-100"
-#~ msgstr "-100"
+#~ msgid ""
+#~ "Allowlist modifications have been saved, start the Domain Lookup or "
+#~ "restart banIP that changes take effect."
+#~ msgstr ""
+#~ "Le modifiche alla Lista consentiti sono state salvate, avvia la ricerca "
+#~ "di domini o riavvia banIP per applicare le modifiche."
 
-#~ msgid "-200 (default)"
-#~ msgstr "-200 (predefinito)"
+#~ msgid ""
+#~ "Blocklist modifications have been saved, start the Domain Lookup or "
+#~ "restart banIP that changes take effect."
+#~ msgstr ""
+#~ "Le modifiche alla lista bloccati sono state salvate, avvia la ricerca dei "
+#~ "domini o riavvia banIP per applicare le modifiche."
 
-#~ msgid "-300"
-#~ msgstr "-300"
+#~ msgid ""
+#~ "With this editor you can upload your local custom feed file or fill up an "
+#~ "initial one (a 1:1 copy of the version shipped with the package). The "
+#~ "file is located at '/etc/banip/banip.custom.feeds'. Then you can edit "
+#~ "this file, delete entries, add new ones or make a local backup. To go "
+#~ "back to the maintainers version just empty the custom feed file again (do "
+#~ "not delete it!)."
+#~ msgstr ""
+#~ "Con questo editor puoi caricare un file locale di feed personalizzati o "
+#~ "riempirne uno iniziale (una copia 1:1 della versione fornita con il "
+#~ "pacchetto). Il file si trova in '/etc/banip/banip.custom.feeds'. Puoi "
+#~ "quindi modificare questo file, cancellare voci, aggiungerne di nuove o "
+#~ "fare un backup locale. Per tornare alla versione dei manutentori, svuota "
+#~ "di nuovo il file dei feed personalizzati (non eliminarlo!)."
 
-#~ msgid "-400"
-#~ msgstr "-400"
+#~ msgid "Apply & Restart"
+#~ msgstr "Riavvia"
 
-#~ msgid "0"
-#~ msgstr "0"
+#~ msgid "No banIP related firewall logs yet!"
+#~ msgstr "Non ci sono ancora log del firewall relativi a banIP!"
 
-#~ msgid "0 (disable)"
-#~ msgstr "0 (disattiva)"
+#~ msgid ""
+#~ "The syslog output, prefiltered for banIP-related firewall log entries "
+#~ "only."
+#~ msgstr ""
+#~ "L'output di syslog, prefiltrato solo per le voci di log del firewall "
+#~ "relative a banIP."
 
-#~ msgid "1"
-#~ msgstr "1"
+#~ msgid "Allowlist Feed Selection"
+#~ msgstr "Selezione Feed della Lista consentiti"
 
-#~ msgid "10"
-#~ msgstr "10"
+#~ msgid "Blocklist Feed Selection"
+#~ msgstr "Selezione Feed Lista bloccati"
 
-#~ msgid "100 (default)"
-#~ msgstr "100 (predefinito)"
+#~ msgid "Chain/Set Settings"
+#~ msgstr "Impostazioni catena/set"
 
-#~ msgid "1000"
-#~ msgstr "1000"
+#~ msgid ""
+#~ "Configuration of the banIP package to ban incoming and outgoing IPs via "
+#~ "named nftables Sets. For further information <a href=\"https://github.com/"
+#~ "openwrt/packages/blob/master/net/banip/files/README.md\" "
+#~ "target=\"_blank\" rel=\"noreferrer noopener\" >check the online "
+#~ "documentation</a>"
+#~ msgstr ""
+#~ "Configurazione del pacchetto banIP per vietare gli IP in entrata e in "
+#~ "uscita tramite set nftables denominati. Per ulteriori informazioni, <a "
+#~ "href=\"https://github.com/openwrt/packages/blob/master/net/banip/files/"
+#~ "README.md\" target=\"_blank\" rel=\"noreferrer noopener\" >consulta la "
+#~ "documentazione online</a>"
 
-#~ msgid "1024 (default)"
-#~ msgstr "1024 (predefinito)"
+#~ msgid "External allowlist feeds"
+#~ msgstr "Feed di Lista consentiti esterna"
 
-#~ msgid "20"
-#~ msgstr "20"
+#~ msgid "External blocklist feeds"
+#~ msgstr "Feed di Lista bloccati esterna"
 
-#~ msgid "2048"
-#~ msgstr "2048"
+#~ msgid "Local feed settings"
+#~ msgstr "Impostazioni feed locale"
 
-#~ msgid "250"
-#~ msgstr "250"
+#~ msgid "Log suspicious forwarded LAN packets (rejected)."
+#~ msgstr "Registra i pacchetti LAN inoltrati sospetti (rejected)."
 
-#~ msgid "3"
-#~ msgstr "3"
+#~ msgid "Log suspicious forwarded WAN packets (dropped)."
+#~ msgstr "Registra i pacchetti WAN inoltrati sospetti (dropped)."
 
-#~ msgid "4096"
-#~ msgstr "4096"
+#~ msgid "Log suspicious incoming WAN packets (dropped)."
+#~ msgstr "Registra i pacchetti WAN in entrata sospetti (dropped)."
 
-#~ msgid "5 (default)"
-#~ msgstr "5 (predefinito)"
+#~ msgid "NFT Chain Priority"
+#~ msgstr "Priorità catena NFT"
 
-#~ msgid "50"
-#~ msgstr "50"
+#~ msgid "NFT Set Policy"
+#~ msgstr "Politica set NFT"
 
-#~ msgid "500"
-#~ msgstr "500"
+#~ msgid ""
+#~ "Set the nft chain priority within the banIP table. Please note: lower "
+#~ "values means higher priority."
+#~ msgstr ""
+#~ "Imposta la priorità della catena nft nella tabella banIP. Nota bene: "
+#~ "valori più bassi significano una priorità più alta."
 
-#~ msgid "512"
-#~ msgstr "512"
+#~ msgid ""
+#~ "The default log terms / regular expressions are filtering suspicious ssh, "
+#~ "LuCI, nginx and asterisk traffic."
+#~ msgstr ""
+#~ "I termini e le espressioni regolari predefinite dei log filtrano il "
+#~ "traffico sospetto di ssh, LuCI, nginx e asterisk."
 
-#~ msgid "Normal Priority (default)"
-#~ msgstr "Priorità normale (predefinito)"
+#~ msgid "auto-added to allowlist today"
+#~ msgstr "auto-aggiunto oggi alla lista consentiti"
 
-#~ msgid "Subnet (default)"
-#~ msgstr "Sottorete (predefinito)"
+#~ msgid "auto-added to blocklist today"
+#~ msgstr "auto-aggiunto oggi alla lista bloccati"
 
-#~ msgid "drop (default)"
-#~ msgstr "scarta (predefinito)"
+#~ msgid "No banIP related processing logs yet!"
+#~ msgstr "Non ci sono ancora log di elaborazione relativi a banIP!"
 
-#~ msgid "memory (default)"
-#~ msgstr "memoria (predefinito)"
+#~ msgid ""
+#~ "The syslog output, prefiltered for banIP-related processing log entries "
+#~ "only."
+#~ msgstr ""
+#~ "L'output del syslog, prefiltrato solo per le voci di log relative "
+#~ "all'elaborazione di banIP."
 
-#~ msgid "warn (default)"
-#~ msgstr "avviso (predefinito)"
+#~ msgid "Log Level"
+#~ msgstr "Livello di log"
+
+#~ msgid "Network Interfaces"
+#~ msgstr "Interfacce di rete"
+
+#~ msgid ""
+#~ "Additional trigger delay in seconds before banIP processing actually "
+#~ "starts."
+#~ msgstr ""
+#~ "Ritardo di attivazione aggiuntivo in secondi prima che l'elaborazione di "
+#~ "banIP abbia inizio."
+
+#~ msgid "List of available network interfaces to trigger the banIP start."
+#~ msgstr ""
+#~ "Elenco delle interfacce di rete disponibili per innescare l'avvio di "
+#~ "banIP."
+
+#~ msgid "Startup Trigger Interface"
+#~ msgstr "Interfaccia trigger di avvio"
+
+#~ msgid "Trigger Action"
+#~ msgstr "Azione di innesco"
+
+#~ msgid "Trigger action on ifup interface events."
+#~ msgstr "Azione di innesco sugli eventi dell'interfaccia ifup."
+
+#~ msgid "reload"
+#~ msgstr "ricarica"
+
+#~ msgid "start (default)"
+#~ msgstr "avvio"
+
+#~ msgid ""
+#~ "Deduplicate IP addresses across all active Sets and and tidy up the local "
+#~ "blocklist."
+#~ msgstr ""
+#~ "Deduplica gli indirizzi IP in tutti i set attivi e riordina la blocklist "
+#~ "locale."
+
+#~ msgid "Unable to save changes: %s"
+#~ msgstr "Impossibile salvare le modifiche: %s"
+
+#~ msgid "-m limit --limit 2/sec (default)"
+#~ msgstr "-m limit --limit 2/sec"
+
+#~ msgid "1 hour"
+#~ msgstr "1 ora"
+
+#~ msgid "12 hours"
+#~ msgstr "12 ore"
+
+#~ msgid "24 hours"
+#~ msgstr "24 ore"
+
+#~ msgid "Action"
+#~ msgstr "Azione"
+
+#~ msgid "Base Temp Directory"
+#~ msgstr "Base directory Temporanea"
+
+#~ msgid "Blocklist Sources"
+#~ msgstr "Fonti lista di Blocco"
+
+#~ msgid "Download Queue"
+#~ msgstr "Coda download"
+
+#~ msgid "Edit Blacklist"
+#~ msgstr "Modifica blacklist"
+
+#~ msgid "Edit Whitelist"
+#~ msgstr "Modifica whitelist"
+
+#~ msgid "Enable verbose debug logging in case of any processing errors."
+#~ msgstr ""
+#~ "Abilita log di debug verboso in caso di qualsiasi errore di elaborazione."
+
+#~ msgid "Existing job(s)"
+#~ msgstr "Processi esistenti"
+
+#~ msgid "Line number to remove"
+#~ msgstr "Numero di riga da eliminare"
+
+#~ msgid "Log View"
+#~ msgstr "Vista dei log"
+
+#~ msgid ""
+#~ "Manually override the pre-configured download options for the selected "
+#~ "download utility."
+#~ msgstr ""
+#~ "Sovrascrivi manualmente le opzioni di download preconfigurate per "
+#~ "l'utilità di download selezionata."
+
+#~ msgid "Name"
+#~ msgstr "Nome"
+
+#~ msgid "No Query results!"
+#~ msgstr "Nessun risultato della query!"
+
+#~ msgid "Refresh Timer"
+#~ msgstr "Attualizza il timer"
+
+#~ msgid "Refresh Timer..."
+#~ msgstr "Attualizzando il timer..."
+
+#~ msgid "Remove an existing job"
+#~ msgstr "Rimuovi un lavoro esistente"
+
+#~ msgid "Save"
+#~ msgstr "Salva"
+
+#~ msgid "Status / Version"
+#~ msgstr "Stato/versione"
+
+#~ msgid "The Refresh Timer could not been updated."
+#~ msgstr "Impossibile aggiornare il timer di aggiornamento."
+
+#~ msgid "The Refresh Timer has been updated."
+#~ msgstr "Il timer di aggiornamento è stato aggiornato."
+
+#~ msgid "The hours portition (req., range: 0-23)"
+#~ msgstr "Parte delle ore (obbligatoria, range: 0-23)"
+
+#~ msgid "The minutes portion (opt., range: 0-59)"
+#~ msgstr "Parte dei minuti (opz., range: 0-59)"
+
+#~ msgid "Type"
+#~ msgstr "Tipo"
+
+#~ msgid "Whitelist..."
+#~ msgstr "Whitelist..."
+
+#~ msgid ""
+#~ "For further information <a href=\"%s\" target=\"_blank\">check the online "
+#~ "documentation</a>"
+#~ msgstr ""
+#~ "Per saperne di più, <a href=\"%s\" target=\"_blank\">consultare la "
+#~ "documentazione su internet</a>"
+
+#~ msgid ""
+#~ "For further performance improvements you can raise this value, e.g. '8' "
+#~ "or '16' should be safe."
+#~ msgstr ""
+#~ "Per mingliorare le performance in futuro puoi aumentare questo valore, "
+#~ "'8' o '16' dovrebbero essere sicuri."
+
+#~ msgid "Geo Location"
+#~ msgstr "Geolocalizzazione"
+
+#~ msgid "Load"
+#~ msgstr "Carico"
+
+#~ msgid "Loading"
+#~ msgstr "Caricamento"
+
+#~ msgid "Low Priority Service"
+#~ msgstr "Serviio a bassa priorità"
+
+#~ msgid "This change requires a manual service stop/re-start to take effect."
+#~ msgstr ""
+#~ "Per rendere effettiva questa modifica è necessario arrestare/riavviare il "
+#~ "servizio manualmente."

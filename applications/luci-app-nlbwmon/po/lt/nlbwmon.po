@@ -68,14 +68,14 @@ msgstr ""
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/config.js:166
 msgid "30s - refresh twice per minute for reasonably current stats"
 msgstr ""
-"30-imt sekundžių – atnaujinti du kartus per minutę, kad gautumėte "
-"„pakankamai aktualią“ statistiką"
+"30-imt sekundžių – atnaujinti du kartus per minutę, kad gautumėte „"
+"pakankamai aktualią“ statistiką"
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/config.js:167
 msgid "5m - rarely refresh to avoid frequently clearing conntrack counters"
 msgstr ""
-"5-ios minutės – retai atnaujinti, kad nereikėtų dažnai išvalyti – "
-"„conntrack“ skaitiklių"
+"5-ios minutės – retai atnaujinti, kad nereikėtų dažnai išvalyti – „conntrack“"
+" skaitiklių"
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/config.js:162
 msgid "60s - commit minutely, useful for non-flash storage"
@@ -163,8 +163,9 @@ msgid ""
 "Changing the accounting interval type will invalidate existing databases!"
 "<br /><strong><a href=\"%s\">Download backup</a></strong>."
 msgstr ""
-"Pakeitus apskaitos intervalo tipą, esamos duomenų bazės taps negaliojančios!"
-"<br /><strong><a href=\"%s\">Atsisiųsti atsarginę kopiją</a></strong>."
+"Pakeitus apskaitos intervalo tipą, esamos duomenų bazės taps "
+"negaliojančios!<br /><strong><a href=\"%s\">Atsisiųsti atsarginę "
+"kopiją</a></strong>."
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/config.js:64
 msgid ""
@@ -357,8 +358,8 @@ msgstr "Skleidėjas/Vedėjas"
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/display.js:620
 msgid "Hostname: <big id=\"bubble-hostname\">example.org</big>"
 msgstr ""
-"Įrenginio (t.y skleidėjo/vedėjo) pavadinimas: „<big id=\"bubble-"
-"hostname\">pavyzdys.org</big>“"
+"Įrenginio (t.y skleidėjo/vedėjo) pavadinimas: „<big id=\"bubble-hostname\""
+">pavyzdys.org</big>“"
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/display.js:507
 msgid "IPv4"
@@ -604,10 +605,9 @@ msgid ""
 "makes accessing old data slightly slower but helps to reduce storage "
 "requirements."
 msgstr ""
-"Nesvarbu, ar suspausti/suglaudinti – „gzip“, archyvų duomenų bazes. "
-"Suspaudžiant/Suglaudžiant duomenų bazių failus, padaro prieigą prie senų "
-"duomenų šiek tiek lėtesnė, tačiau tai padeda sumažinti saugojimo "
-"reikalavimus."
+"Nesvarbu, ar suspausti/suglaudinti – „gzip“, archyvų duomenų bazes. Suspaudž"
+"iant/Suglaudžiant duomenų bazių failus, padaro prieigą prie senų duomenų "
+"šiek tiek lėtesnė, tačiau tai padeda sumažinti saugojimo reikalavimus."
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/config.js:148
 msgid ""

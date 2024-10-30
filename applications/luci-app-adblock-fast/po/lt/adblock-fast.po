@@ -9,8 +9,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"(n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && ("
+"n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Weblate 5.8-dev\n"
 
 #: applications/luci-app-adblock-fast/htdocs/luci-static/resources/adblock-fast/status.js:245
@@ -663,8 +663,7 @@ msgstr "„dnsmasq ipset“ palaikymas yra įgalintas, tačiau „nft“ nėra �
 
 #: applications/luci-app-adblock-fast/htdocs/luci-static/resources/adblock-fast/status.js:207
 msgid "The principal package (adblock-fast) is outdated, please update it"
-msgstr ""
-"Pagrindinis paketas („adblock-fast“) yra pasenęs, prašome atnaujinti jį"
+msgstr "Pagrindinis paketas („adblock-fast“) yra pasenęs, prašome atnaujinti jį"
 
 #: applications/luci-app-adblock-fast/htdocs/luci-static/resources/view/adblock-fast/overview.js:528
 msgid "URL"
@@ -789,3 +788,6 @@ msgstr "„smartdns“ „nft rinkinys“"
 #: applications/luci-app-adblock-fast/htdocs/luci-static/resources/view/adblock-fast/overview.js:155
 msgid "unbound adblock list"
 msgstr "unbound reklamų/skelbimų turinių blokatoriaus sąrašas"
+
+#~ msgid "%s"
+#~ msgstr "%s"

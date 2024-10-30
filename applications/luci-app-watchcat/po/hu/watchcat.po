@@ -22,9 +22,13 @@ msgstr ""
 msgid "Address family for pinging the host"
 msgstr ""
 
+#: applications/luci-app-watchcat/htdocs/luci-static/resources/view/watchcat.js:65
+msgid "Any"
+msgstr ""
+
 #: applications/luci-app-watchcat/htdocs/luci-static/resources/view/watchcat.js:94
 msgid ""
-"Applies to Ping Reboot and Periodic Reboot modes</i> <br /> When rebooting "
+"<i>Applies to Ping Reboot and Periodic Reboot modes</i> <br /> When rebooting "
 "the router, the service will trigger a soft reboot. Entering a non-zero "
 "value here will trigger a delayed hard reboot if the soft reboot were to "
 "fail. Enter the number of seconds to wait for the soft reboot to fail or use "
@@ -33,8 +37,8 @@ msgstr ""
 
 #: applications/luci-app-watchcat/htdocs/luci-static/resources/view/watchcat.js:111
 msgid ""
-"Applies to Ping Reboot and Restart Interface modes</i> <br /> If using "
-"ModemManager, you can have Watchcat restart your ModemManger interface by "
+"<i>Applies to Ping Reboot and Restart Interface modes</i> <br /> If using "
+"ModemManager, you can have Watchcat restart your ModemManager interface by "
 "specifying its name."
 msgstr ""
 
@@ -196,3 +200,38 @@ msgstr "Watchcat"
 #: applications/luci-app-watchcat/htdocs/luci-static/resources/view/watchcat.js:82
 msgid "Windows: 32 bytes"
 msgstr "Windows: 32 bájt"
+
+#~ msgid "Forced reboot delay"
+#~ msgstr "Kényszerített újraindítás késleltetése"
+
+#, fuzzy
+#~ msgid "Host address to ping"
+#~ msgstr "Pingelendő szerver címe"
+
+#~ msgid ""
+#~ "How often to check internet connection. Default unit is seconds, you can "
+#~ "you use the suffix 'm' for minutes, 'h' for hours or 'd' for days"
+#~ msgstr ""
+#~ "Internet kapcsolat ellenőrzésének gyakorisága. Alapértelmezett egység a "
+#~ "másodperc, percekhez használd az 'm', órákhoz a 'h', vagy napokhoz a 'd' "
+#~ "utótagot."
+
+#~ msgid ""
+#~ "In periodic mode, it defines the reboot period. In internet mode, it "
+#~ "defines the longest period of time without internet access before a "
+#~ "reboot is engaged.Default unit is seconds, you can use the suffix 'm' for "
+#~ "minutes, 'h' for hours or 'd' for days"
+#~ msgstr ""
+#~ "Periodikus üzemmódban ez határozza meg az újraindítás gyakoriságát. "
+#~ "Internet üzemmódban meghatározza a leghosszabb időt újraindításig, amikor "
+#~ "nincs internet kapcsolat. Alapértelmezett egység a másodperc, percekhez "
+#~ "használd az 'm', órákhoz a 'h', vagy napokhoz a 'd' utótagot."
+
+#~ msgid "Operating mode"
+#~ msgstr "Üzemmód"
+
+#~ msgid "Ping host"
+#~ msgstr "Ping címe"
+
+#~ msgid "Ping period"
+#~ msgstr "Pingelések közti idő"

@@ -168,3 +168,6 @@ msgid ""
 msgstr ""
 "vnStat ist ein Netzwerkverkehrsmonitor für Linux, der ein Protokoll des "
 "Netzwerkverkehrs für die ausgewählten Schnittstellen ausgibt."
+
+#~ msgid "vnStat Traffic Monitor"
+#~ msgstr "vnStat-Datenverkehrsmonitor"

@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-08-21 13:22+0000\n"
-"Last-Translator: st7105 <st7105@gmail.com>\n"
+"PO-Revision-Date: 2024-10-11 00:48+0000\n"
+"Last-Translator: sergio <sergio+it@outerface.net>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationshttps-dns-proxy/ru/>\n"
 "Language: ru\n"
@@ -9,7 +9,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 5.7\n"
+"X-Generator: Weblate 5.8-dev\n"
 
 #: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/https-dns-proxy/status.js:269
 msgid "%s%s%s proxy at %s on port %s.%s"
@@ -18,6 +18,74 @@ msgstr "%s%s прокси в %s на порту %s.%s"
 #: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/https-dns-proxy/status.js:261
 msgid "%s%s%s proxy on port %s.%s"
 msgstr "%s%s прокси на порту %s.%s"
+
+#: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/co.oszx.dns.json:14
+#: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/gr.libredns.doh.json:14
+msgid "AdBlocking Filter"
+msgstr "AdBlocking Фильтр"
+
+#: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/com.adguard.dns.json:2
+msgid "AdGuard"
+msgstr "AdGuard"
+
+#: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/com.controld.freedns.json:30
+msgid "Ads + Malware + Social Filter"
+msgstr "Ads + Malware + Социальный фильтр"
+
+#: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/com.controld.freedns.json:26
+msgid "Ads + Malware Filter"
+msgstr "Ads + Malware Фильтр"
+
+#: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/net.mullvad.dns.json:19
+msgid "Ads and Trackers Filter"
+msgstr "Фильтр рекламы и трекеров"
+
+#: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/net.mullvad.dns.json:35
+msgid "Ads, Trackers, Malware, Adult, Gambling, and Social Media Filter"
+msgstr ""
+"Реклама, трекеры, вредоносное ПО, контент для взрослых, азартные игры и "
+"социальные сети"
+
+#: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/net.mullvad.dns.json:31
+msgid "Ads, Trackers, Malware, Adult, and Gambling"
+msgstr ""
+"Реклама, трекеры, вредоносные программы, контент для взрослых и азартные игры"
+
+#: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/net.mullvad.dns.json:27
+msgid "Ads, Trackers, Malware, and Social Media Filter"
+msgstr "Фильтр рекламы, трекеров, вредоносного ПО и социальных сетей"
+
+#: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/net.mullvad.dns.json:23
+msgid "Ads, Trackers, and Malware Filter"
+msgstr "Фильтр рекламы, трекеров и вредоносных программ"
+
+#: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/org.cleanbrowsing.doh.json:14
+msgid "Adult Content Filter"
+msgstr "Фильтр для взрослых"
+
+#: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/com.ahadns.blitz.json:2
+msgid "AhaDNS Blitz"
+msgstr "AhaDNS Blitz"
+
+#: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/net.ahadns.doh.json:2
+msgid "AhaDNS Regional"
+msgstr "AhaDNS Regional"
+
+#: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/com.alidns.dns.json:2
+msgid "AliDNS"
+msgstr "AliDNS"
+
+#: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/net.applied-privacy.doh.json:2
+msgid "Applied Privacy DNS (AT)"
+msgstr "Applied Privacy DNS (AT)"
+
+#: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/net.ahadns.doh.json:14
+msgid "Australia"
+msgstr "Австралия"
+
+#: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/com.blahdns.doh.json:2
+msgid "BlahDNS"
+msgstr "BlahDNS"
 
 #: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/view/https-dns-proxy/overview.js:148
 msgid ""
@@ -41,6 +109,14 @@ msgstr ""
 msgid "Bootstrap DNS"
 msgstr "Bootstrap DNS"
 
+#: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/net.cfiec.dns.json:2
+msgid "CFIEC Public IPv6 Only DNS (CN)"
+msgstr "CFIEC Public IPv6 Только DNS (CN)"
+
+#: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/ca.cira.canadianshield.json:2
+msgid "CIRA Canadian Shield"
+msgstr "CIRA Canadian Shield"
+
 #: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/view/https-dns-proxy/overview.js:146
 msgid "Canary Domains Mozilla"
 msgstr "Canary Domains Mozilla"
@@ -49,9 +125,65 @@ msgstr "Canary Domains Mozilla"
 msgid "Canary Domains iCloud"
 msgstr "Canary Domains iCloud"
 
+#: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/org.cleanbrowsing.doh.json:2
+msgid "CleanBrowsing"
+msgstr "CleanBrowsing"
+
+#: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/com.cloudflare-dns.json:2
+msgid "Cloudflare"
+msgstr "Cloudflare"
+
+#: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/app.tiarap.doh.json:18
+msgid "Cloudlfare Cached"
+msgstr "Cloudfare Cached"
+
+#: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/one.comss.dns.json:2
+msgid "Comss DNS (RU)"
+msgstr "Comss DNS (RU)"
+
+#: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/com.controld.freedns.json:2
+msgid "ControlD"
+msgstr "ControlD"
+
+#: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/com.dnsforfamily.dns-doh.json:2
+msgid "DNS For Family"
+msgstr "DNS для семьи"
+
+#: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/de.dnsforge.json:2
+msgid "DNS Forge (DE)"
+msgstr "DNS Forge (DE)"
+
+#: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/pub.doh.json:2
+msgid "DNSPod Public DNS (CN)"
+msgstr "DNSPod Public DNS (CN)"
+
+#: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/com.dnslify.doh.json:2
+msgid "DNSlify DNS"
+msgstr "DNSlify DNS"
+
 #: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/view/https-dns-proxy/overview.js:355
 msgid "DSCP Codepoint"
 msgstr "Кодовая точка DSCP"
+
+#: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/net.mullvad.json:43
+msgid "Dallas, United States"
+msgstr "Даллас, США"
+
+#: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/com.decloudus.dns.json:2
+msgid "DeCloudUs DNS"
+msgstr "DeCloudUs DNS"
+
+#: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/com.adguard.dns.json:14
+msgid "Default (Blocks ads and trackers)"
+msgstr "По умолчанию (блокировать рекламу и трекеры)"
+
+#: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/ch.digitale-gesellschaft.dns.json:2
+msgid "Digitale Gesellschaft (CH)"
+msgstr "Digitale Gesellschaft (CH)"
+
+#: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/app.tiarap.doh.json:14
+msgid "Direct"
+msgstr "Прямой"
 
 #: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/https-dns-proxy/status.js:387
 msgid "Disable"
@@ -65,6 +197,14 @@ msgstr "Отключение службы %s"
 msgid "Do not update configs"
 msgstr "Не обновлять настройки"
 
+#: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/cn.360.doh.json:2
+msgid "DoH 360 DNS (CN)"
+msgstr "DoH 360 DNS (CN)"
+
+#: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/sb.dns.json:2
+msgid "DoH DNS (SB)"
+msgstr "DoH DNS (SB)"
+
 #: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/https-dns-proxy/status.js:368
 msgid "Enable"
 msgstr "Включить"
@@ -72,6 +212,32 @@ msgstr "Включить"
 #: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/https-dns-proxy/status.js:362
 msgid "Enabling %s service"
 msgstr "Включение службы %s"
+
+#: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/net.ffmuc.doh.json:2
+msgid "FFMUC DNS (DE)"
+msgstr "FFMUC DNS (DE)"
+
+#: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/ca.cira.canadianshield.json:14
+#: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/com.adguard.dns.json:22
+#: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/com.cloudflare-dns.json:14
+#: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/com.controld.freedns.json:14
+#: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/com.opendns.doh.json:14
+#: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/org.cleanbrowsing.doh.json:18
+msgid "Family Filter"
+msgstr "Семейный фильтр"
+
+#: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/org.cleanbrowsing.doh.json:8
+msgid "Filter"
+msgstr "Фильтр"
+
+#: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/com.ahadns.blitz.json:8
+#: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/com.rethinkdns.sky.json:8
+msgid "Filters"
+msgstr "Фильтры"
+
+#: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/com.blahdns.doh.json:22
+msgid "Finland"
+msgstr "Финляндия"
 
 #: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/view/status/include/71_https-dns-proxy.js:58
 msgid "Force DNS Ports"
@@ -104,6 +270,25 @@ msgid ""
 "Forces Router DNS use on local devices, also known as DNS Hijacking. Only "
 "works on `lan` interface by default (%smore information%s)."
 msgstr ""
+"Принудительно использовать маршрутизатор DNS на локальных устройствах, также "
+"известно как DNS Hijacking. По умолчанию работает только на интерфейсе `lan` "
+"(%sдополнительная информация%s)."
+
+#: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/net.mullvad.json:15
+msgid "Frankfurt, Germany"
+msgstr "Франкфурт, Германия"
+
+#: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/com.blahdns.doh.json:18
+msgid "Germany"
+msgstr "Германия"
+
+#: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/google.dns.json:2
+msgid "Google"
+msgstr "Google"
+
+#: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/net.mullvad.json:27
+msgid "Gothenburg, Sweden"
+msgstr "Гетеборг, Швеция"
 
 #: applications/luci-app-https-dns-proxy/root/usr/share/rpcd/acl.d/luci-app-https-dns-proxy.json:3
 msgid "Grant UCI and file access for luci-app-https-dns-proxy"
@@ -129,6 +314,18 @@ msgstr "HTTPS DNS Прокси - Статус"
 msgid "HTTPS DNS Proxy Instances"
 msgstr "Экземпляры DNS-прокси HTTPS"
 
+#: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/net.he.ordns.json:2
+msgid "Hurricane Electric"
+msgstr "Hurricane Electric"
+
+#: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/net.idnet.doh.json:2
+msgid "IDNet (UK)"
+msgstr "IDNet (Великобритания)"
+
+#: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/jp.iij.dns.public.json:2
+msgid "IIJ Public DNS (JP)"
+msgstr "IIJ Public DNS (JP)"
+
 #: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/view/https-dns-proxy/overview.js:57
 msgid ""
 "If update option is selected, the %s'DNS Forwards' section of DHCP and DNS%s "
@@ -138,6 +335,22 @@ msgstr ""
 "Если выбрана опция обновления, то раздел %s'DNS Forwards' в DHCP и DNS%s "
 "будет автоматически обновлен для использования выбранных провайдеров DoH "
 "(%sдополнительная информация%s)."
+
+#: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/net.ahadns.doh.json:26
+msgid "India"
+msgstr "Индия"
+
+#: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/net.ahadns.doh.json:30
+msgid "Italy"
+msgstr "Италия"
+
+#: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/com.blahdns.doh.json:26
+msgid "Japan"
+msgstr "Япония"
+
+#: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/fi.lelux.resolver-eu.json:2
+msgid "Lelux DNS (FI)"
+msgstr "Lelux DNS (FI)"
 
 #: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/view/https-dns-proxy/overview.js:157
 msgid "Let local devices use Mozilla Private Relay"
@@ -153,6 +366,10 @@ msgstr ""
 "Разрешить локальным устройствам использовать собственные DNS, если они "
 "прописаны в настройках сети устройства"
 
+#: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/gr.libredns.doh.json:2
+msgid "LibreDNS (GR)"
+msgstr "LibreDNS (GR)"
+
 #: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/view/https-dns-proxy/overview.js:333
 #: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/view/status/include/71_https-dns-proxy.js:56
 msgid "Listen Address"
@@ -163,6 +380,12 @@ msgstr "Адрес прослушивания"
 msgid "Listen Port"
 msgstr "Порт для входящих соединений"
 
+#: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/com.blahdns.doh.json:8
+#: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/net.ahadns.doh.json:8
+#: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/one.comss.dns.json:7
+msgid "Location"
+msgstr "Расположение"
+
 #: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/view/https-dns-proxy/overview.js:367
 msgid "Logging File Path"
 msgstr "Путь к файлу журнала"
@@ -171,13 +394,69 @@ msgstr "Путь к файлу журнала"
 msgid "Logging Verbosity"
 msgstr "Уровень записи в журнал"
 
+#: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/net.mullvad.json:19
+msgid "London, United Kingdom (1)"
+msgstr "Лондон, Великобритания (1)"
+
+#: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/net.mullvad.json:23
+msgid "London, United Kingdom (2)"
+msgstr "Лондон, Великобритания (2)"
+
+#: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/net.mullvad.json:31
+msgid "Malmö, Sweden"
+msgstr "Мальмё, Швеция"
+
+#: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/com.controld.freedns.json:22
+msgid "Malware Filter"
+msgstr "Фильтр вредоносных программ"
+
+#: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/one.comss.dns.json:17
+msgid "Moscow, St Petersburg"
+msgstr "Москва, Санкт-Петербург"
+
+#: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/net.mullvad.dns.json:2
+msgid "Mullvad"
+msgstr "Mullvad"
+
+#: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/net.mullvad.json:2
+msgid "Mullvad Regional"
+msgstr "Mullvad региональный"
+
 #: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/view/status/include/71_https-dns-proxy.js:55
 msgid "Name / Type"
 msgstr "Название / Тип"
 
+#: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/net.ahadns.doh.json:38
+msgid "Netherlands"
+msgstr "Нидерланды"
+
+#: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/net.mullvad.json:47
+msgid "New York City, United States"
+msgstr "Нью-Йорк, США"
+
+#: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/io.nextdns.dns.json:2
+msgid "NextDNS.io"
+msgstr "NextDNS.io"
+
+#: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/net.ahadns.doh.json:42
+msgid "Norway"
+msgstr "Норвегия"
+
 #: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/https-dns-proxy/status.js:198
 msgid "Not installed or not found"
 msgstr "Не установлен или не найден"
+
+#: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/cz.nic.odvr.json:2
+msgid "ODVR (CZ)"
+msgstr "ODVR (CZ)"
+
+#: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/co.oszx.dns.json:2
+msgid "OSZX DNS (UK)"
+msgstr "OSZX DNS (UK)"
+
+#: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/com.opendns.doh.json:2
+msgid "OpenDNS"
+msgstr "OpenDNS"
 
 #: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/view/https-dns-proxy/overview.js:261
 #: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/view/https-dns-proxy/overview.js:293
@@ -192,9 +471,21 @@ msgstr ""
 "Обратите внимание, что %s не поддерживается в данной системе "
 "(%sдополнительная информация%s)."
 
+#: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/net.ahadns.doh.json:50
+msgid "Poland"
+msgstr "Польша"
+
 #: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/view/https-dns-proxy/overview.js:372
 msgid "Polling Interval"
 msgstr "Интервал опроса"
+
+#: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/ca.cira.canadianshield.json:18
+msgid "Private Filter"
+msgstr "Частный фильтр"
+
+#: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/ca.cira.canadianshield.json:22
+msgid "Protected Filter"
+msgstr "Защищенный фильтр"
 
 #: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/view/https-dns-proxy/overview.js:227
 msgid "Provider"
@@ -204,6 +495,18 @@ msgstr "Провайдер"
 msgid "Proxy Server"
 msgstr "Прокси сервер"
 
+#: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/tw.twnic.dns.json:2
+msgid "Quad 101 (TW)"
+msgstr "Quad 101 (TW)"
+
+#: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/net.quad9.json:2
+msgid "Quad 9"
+msgstr "Quad 9"
+
+#: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/net.mullvad.json:9
+msgid "Region"
+msgstr "Регион"
+
 #: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/https-dns-proxy/status.js:330
 msgid "Restart"
 msgstr "Перезапустить"
@@ -212,6 +515,18 @@ msgstr "Перезапустить"
 msgid "Restarting %s service"
 msgstr "Перезапуск службы %s"
 
+#: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/lu.restena.kaitain.json:2
+msgid "Restena DNS (LU)"
+msgstr "Restena DNS (LU)"
+
+#: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/com.rethinkdns.sky.json:2
+msgid "Rethink DNS"
+msgstr "Rethink DNS"
+
+#: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/cn.rubyfish.dns.json:2
+msgid "RubyFish (CN)"
+msgstr "RubyFish (CN)"
+
 #: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/view/https-dns-proxy/overview.js:350
 msgid "Run As Group"
 msgstr "Выполнить как группу"
@@ -219,6 +534,23 @@ msgstr "Выполнить как группу"
 #: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/view/https-dns-proxy/overview.js:345
 msgid "Run As User"
 msgstr "Выполнить от имени пользователя"
+
+#: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/io.seby.doh-2.json:2
+msgid "Seby DNS (AU)"
+msgstr "Seby DNS (AU)"
+
+#: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/net.quad9.json:18
+msgid "Secured"
+msgstr "Защищенный"
+
+#: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/net.quad9.json:26
+msgid "Secured with ECS Support"
+msgstr "Обеспечивается поддержкой ECS"
+
+#: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/com.cloudflare-dns.json:22
+#: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/org.cleanbrowsing.doh.json:22
+msgid "Security Filter"
+msgstr "Фильтр безопасности"
 
 #: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/https-dns-proxy/status.js:214
 msgid "See the %sREADME%s for details."
@@ -240,6 +572,33 @@ msgstr "Сервисные экземпляры"
 msgid "Service Status"
 msgstr "Статус службы"
 
+#: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/one.comss.dns.json:13
+msgid "Siberia"
+msgstr "Сибирь"
+
+#: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/com.blahdns.doh.json:30
+#: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/net.mullvad.json:39
+msgid "Singapore"
+msgstr "Сингапур"
+
+#: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/org.snopyta.dns.doh.fi.json:2
+msgid "Snopyta DNS (FI)"
+msgstr "Snopyta DNS (FI)"
+
+#: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/net.ahadns.doh.json:22
+msgid "Spain"
+msgstr "Испания"
+
+#: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/co.oszx.dns.json:18
+#: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/com.cloudflare-dns.json:18
+#: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/com.controld.freedns.json:18
+#: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/com.opendns.doh.json:18
+#: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/gr.libredns.doh.json:18
+#: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/net.mullvad.dns.json:15
+#: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/net.quad9.json:14
+msgid "Standard"
+msgstr "Стандарт"
+
 #: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/https-dns-proxy/status.js:311
 msgid "Start"
 msgstr "Запустить"
@@ -247,6 +606,10 @@ msgstr "Запустить"
 #: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/https-dns-proxy/status.js:305
 msgid "Starting %s service"
 msgstr "Запуск службы %s"
+
+#: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/net.mullvad.json:35
+msgid "Stockholm, Sweden"
+msgstr "Стокгольм, Швеция"
 
 #: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/https-dns-proxy/status.js:349
 msgid "Stop"
@@ -256,13 +619,45 @@ msgstr "Остановить"
 msgid "Stopping %s service"
 msgstr "Остановка службы %s"
 
+#: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/ch.switch.dns.json:2
+msgid "Switch DNS (CH)"
+msgstr "Switch DNS (CH)"
+
+#: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/com.blahdns.doh.json:14
+msgid "Switzerland"
+msgstr "Швейцария"
+
 #: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/view/status/include/71_https-dns-proxy.js:105
 msgid "There are no active instances."
 msgstr "Активных экземпляров нет."
 
+#: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/app.tiarap.doh.json:2
+msgid "Tiarap Public DNS (JP)"
+msgstr "Tiarap Public DNS (JP)"
+
+#: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/net.ahadns.doh.json:18
+msgid "US/Chicago"
+msgstr "США/Чикаго"
+
+#: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/net.ahadns.doh.json:34
+msgid "US/Los Angeles"
+msgstr "США/Лос-Анджелес"
+
+#: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/net.ahadns.doh.json:46
+msgid "US/New York"
+msgstr "США/Нью-Йорк"
+
+#: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/com.adguard.dns.json:18
+msgid "Unfiltered"
+msgstr "Без фильтрации"
+
 #: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/view/https-dns-proxy/overview.js:223
 msgid "Unknown"
 msgstr "Неизвестный"
+
+#: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/net.quad9.json:22
+msgid "Unsecured"
+msgstr "Небезопасный"
 
 #: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/view/https-dns-proxy/overview.js:55
 msgid "Update DNSMASQ Config on Start/Stop"
@@ -292,6 +687,23 @@ msgstr "Использовать DNS-резольверы любого семе�
 msgid "Use negotiated HTTP version"
 msgstr "Использовать согласованную HTTP-версию"
 
+#: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/io.nextdns.dns.json:8
+msgid "Username"
+msgstr "Имя пользователя"
+
+#: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/app.tiarap.doh.json:8
+#: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/ca.cira.canadianshield.json:8
+#: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/co.oszx.dns.json:8
+#: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/com.adguard.dns.json:8
+#: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/com.cloudflare-dns.json:8
+#: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/com.controld.freedns.json:8
+#: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/com.opendns.doh.json:8
+#: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/gr.libredns.doh.json:8
+#: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/net.mullvad.dns.json:9
+#: applications/luci-app-https-dns-proxy/root/usr/share/https-dns-proxy/providers/net.quad9.json:8
+msgid "Variant"
+msgstr "Вариант"
+
 #: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/https-dns-proxy/status.js:180
 msgid "Version %s - Running."
 msgstr "Версия %s - Выполняется."
@@ -303,3 +715,357 @@ msgstr "Версия %s - остановлена (отключена)."
 #: applications/luci-app-https-dns-proxy/htdocs/luci-static/resources/https-dns-proxy/status.js:190
 msgid "Version %s - Stopped."
 msgstr "Версия %s - Остановлена."
+
+#~ msgid "Forces Router DNS use on local devices, also known as DNS Hijacking."
+#~ msgstr ""
+#~ "Принудительное использование DNS роутера на локальных устройствах, или "
+#~ "перехват DNS."
+
+#~ msgid "%s"
+#~ msgstr "%s"
+
+#~ msgid "Update %s only"
+#~ msgstr "Только обновление %s"
+
+#~ msgid "%s DoH at %s:%s"
+#~ msgstr "%s DoH в %s:%s"
+
+#~ msgid "%s is not installed or not found"
+#~ msgstr "%s не установлен или не найден"
+
+#~ msgid "360 Secure DNS - CN"
+#~ msgstr "360 Secure DNS - Китай"
+
+#~ msgid "AdGuard (Family Protection)"
+#~ msgstr "AdGuard (Семейная защита)"
+
+#~ msgid "AdGuard (Non-filtering)"
+#~ msgstr "AdGuard (без фильтрации)"
+
+#~ msgid "AdGuard (Standard)"
+#~ msgstr "AdGuard (Стандарт)"
+
+#~ msgid "AhaDNS - AU (Block Malware + Ads)"
+#~ msgstr "AhaDNS – AU (блокировка вредоносных программ и рекламы)"
+
+#~ msgid "AhaDNS - ES (Block Malware + Ads)"
+#~ msgstr "AhaDNS - Нидерланды (Блокирует вредоносное ПО и Рекламу)"
+
+#~ msgid "AhaDNS - IN (Block Malware + Ads)"
+#~ msgstr "AhaDNS - Индия (Блокирует вредоносное ПО и Рекламу)"
+
+#~ msgid "AhaDNS - IT (Block Malware + Ads)"
+#~ msgstr "AhaDNS - Италия (Блокирует вредоносное ПО и Рекламу)"
+
+#~ msgid "AhaDNS - NL (Block Malware + Ads)"
+#~ msgstr "AhaDNS - Нидерланды (Блокирует вредоносное ПО и Рекламу)"
+
+#~ msgid "AhaDNS - NO (Block Malware + Ads)"
+#~ msgstr "AhaDNS - Норвегия (Блокирует вредоносное ПО и Рекламу)"
+
+#~ msgid "AhaDNS - PL (Block Malware + Ads)"
+#~ msgstr "AhaDNS - Польша (Блокирует вредоносное ПО и Рекламу)"
+
+#~ msgid "AhaDNS - US/Chicago (Block Malware + Ads)"
+#~ msgstr "AhaDNS - США/Чикаго (Блокирует вредоносное ПО и Рекламу)"
+
+#~ msgid "AhaDNS - US/Los Angeles (Block Malware + Ads)"
+#~ msgstr "AhaDNS - США/Лос-Анджелес (Блокирует вредоносное ПО и Рекламу)"
+
+#~ msgid "AhaDNS - US/New York (Block Malware + Ads)"
+#~ msgstr "AhaDNS - США/Нью-Йорк (Блокирует вредоносное ПО и Рекламу)"
+
+#~ msgid "AhaDNS Blitz (Configurable)"
+#~ msgstr "AhaDNS - Блиц (Конфигурируемый)"
+
+#~ msgid "AliDNS - CN"
+#~ msgstr "AliDNS - Китай"
+
+#~ msgid "Applied Privacy DNS - AT/DE"
+#~ msgstr "Применяемая конфиденциальность DNS - AT/DE"
+
+#~ msgid "BlahDNS - CH"
+#~ msgstr "BlahDNS - Китай"
+
+#~ msgid "BlahDNS - DE"
+#~ msgstr "BlahDNS - Германия"
+
+#~ msgid "BlahDNS - FI"
+#~ msgstr "BlahDNS - Финляндия"
+
+#~ msgid "BlahDNS - JP"
+#~ msgstr "BlahDNS - Япония"
+
+#~ msgid "BlahDNS - SG"
+#~ msgstr "BlahDNS - Сингапур"
+
+#~ msgid ""
+#~ "Blocks access to Mozilla resolvers, forcing local devices to use router "
+#~ "for DNS resolution (%smore information%s)."
+#~ msgstr ""
+#~ "Блокирует доступ к резолверам Mozilla, заставляя локальные устройства "
+#~ "использовать маршрутизатор для разрешения DNS (%smore information%s)."
+
+#~ msgid "CFIEC Public DNS (IPv6 Only)"
+#~ msgstr "CFIEC Public DNS (только IPv6)"
+
+#~ msgid "CIRA Canadian Shield (Family)"
+#~ msgstr "CIRA Canadian Shield (Семья)"
+
+#~ msgid "CIRA Canadian Shield (Private)"
+#~ msgstr "CIRA Canadian Shield (Личный)"
+
+#~ msgid "CIRA Canadian Shield (Protected)"
+#~ msgstr "CIRA Canadian Shield (Защищённый)"
+
+#~ msgid "CleanBrowsing (Adult Filter)"
+#~ msgstr "CleanBrowsing (Фильтр для взрослых)"
+
+#~ msgid "CleanBrowsing (Family Filter)"
+#~ msgstr "CleanBrowsing (Семейный фильтр)"
+
+#~ msgid "CleanBrowsing (Security Filter)"
+#~ msgstr "CleanBrowsing (Фильтр безопасности)"
+
+#~ msgid "Cloudflare (Family Protection)"
+#~ msgstr "Cloudflare (Семейная защита)"
+
+#~ msgid "Cloudflare (Security Protection)"
+#~ msgstr "Cloudflare (Защита безопасности)"
+
+#~ msgid "Comss.ru DNS (East)"
+#~ msgstr "Comss.ru DNS (Восток)"
+
+#~ msgid "Comss.ru DNS (West)"
+#~ msgstr "Comss.ru DNS (Запад)"
+
+#~ msgid "Configuration"
+#~ msgstr "Конфигурация"
+
+#~ msgid "ControlD (Block Malware + Ads + Social)"
+#~ msgstr "ControlD (блокировка вредоносного ПО + реклама + социальная защита)"
+
+#~ msgid "ControlD (Block Malware + Ads)"
+#~ msgstr "ControlD (блокировка вредоносного ПО + рекламы)"
+
+#~ msgid "ControlD (Block Malware)"
+#~ msgstr "ControlD (блокировка вредоносных программ)"
+
+#~ msgid "ControlD (Family)"
+#~ msgstr "ControlD (Семейный)"
+
+#~ msgid "ControlD (Unfiltered)"
+#~ msgstr "ControlD (нефильтрованный)"
+
+#~ msgid "DNS Forge - DE"
+#~ msgstr "DNS Forge - Германия"
+
+#~ msgid "DNS HTTPS Proxy"
+#~ msgstr "Прокси-сервер DNS HTTPS"
+
+#~ msgid "DNS HTTPS Proxy Settings"
+#~ msgstr "Настройки прокси-сервера DNS HTTPS"
+
+#~ msgid "DNS.SB"
+#~ msgstr "DNS.SB"
+
+#~ msgid "DNSCrypt.ca (DNS1)"
+#~ msgstr "DNSCrypt.ca (DNS1)"
+
+#~ msgid "DNSCrypt.ca (DNS2)"
+#~ msgstr "DNSCrypt.ca (DNS2)"
+
+#~ msgid "DNSPod Public DNS - CN"
+#~ msgstr "DNSPod Публичный DNS - CN"
+
+#~ msgid "Digitale Gesellschaft - CH"
+#~ msgstr "Digitale Gesellschaft - Китай"
+
+#~ msgid "FFMUC DNS - DE"
+#~ msgstr "FFMUC DNS - Германия"
+
+#~ msgid "For more information on different options check"
+#~ msgstr ""
+#~ "Для получения дополнительной информации о различных опциях, проверьте"
+
+#~ msgid "IDNet.net - UK"
+#~ msgstr "IDNet.net - Великобритания"
+
+#~ msgid "IIJ Public DNS - JP"
+#~ msgstr "IIJ Public DNS - Япония"
+
+#~ msgid ""
+#~ "If update option is selected, the 'DNS forwardings' section of %sDHCP and "
+#~ "DNS%s will be automatically updated to use selected DoH providers (%smore "
+#~ "information%s)."
+#~ msgstr ""
+#~ "Если выбран параметр обновления, раздел «Перенаправление DNS» в %sDHCP и "
+#~ "DNS%s будет автоматически обновлен для использования выбранных "
+#~ "поставщиков DoH (%sбольше информации%s)."
+
+#~ msgid "Instances"
+#~ msgstr "Записи"
+
+#~ msgid "Lelux DNS - FI"
+#~ msgstr "Lelux DNS - Финляндия"
+
+#~ msgid "Let local devices use Mozilla resolvers"
+#~ msgstr "Разрешите локальным устройствам использовать резольверы Mozilla"
+
+#~ msgid "LibreDNS - GR"
+#~ msgstr "LibreDNS - Греция"
+
+#~ msgid "LibreDNS - GR (No Ads)"
+#~ msgstr "LibreDNS - GR (без рекламы)"
+
+#~ msgid "Loading"
+#~ msgstr "Загрузка"
+
+#~ msgid "Mullvad (AdBlock)"
+#~ msgstr "Mullvad (AdBlock)"
+
+#~ msgid "NextDNS.io (Configurable)"
+#~ msgstr "NextDNS.io (настраиваемый)"
+
+#~ msgid "ODVR (nic.cz)"
+#~ msgstr "ODVR (nic.cz)"
+
+#~ msgid "OSZX DNS (Pumplex)"
+#~ msgstr "OSZX DNS (Pumplex)"
+
+#~ msgid "OSZX DNS - UK"
+#~ msgstr "OSZX DNS - Великобритания"
+
+#~ msgid "OpenDNS (Family Shield)"
+#~ msgstr "OpenDNS (Семейная защита)"
+
+#~ msgid "Quad 101 - TW"
+#~ msgstr "Quad 101 - Тайвань"
+
+#~ msgid "Quad 9 (Recommended)"
+#~ msgstr "Quad 9 (Рекомендуется)"
+
+#~ msgid "Quad 9 (Secured with ECS Support)"
+#~ msgstr "Quad 9 (Защищено поддержкой ECS)"
+
+#~ msgid "Quad 9 (Secured)"
+#~ msgstr "Quad 9 (Защищённый)"
+
+#~ msgid "Quad 9 (Unsecured)"
+#~ msgstr "Quad 9 (Незащищённый)"
+
+#~ msgid "Reload"
+#~ msgstr "Перезагрузить"
+
+#~ msgid "Resolver"
+#~ msgstr "Сервис DNS"
+
+#~ msgid "Restena DNS - LU"
+#~ msgstr "Restena DNS - Люксембург"
+
+#~ msgid "Rethink DNS (Configurable)"
+#~ msgstr "Rethink DNS (настраиваемый)"
+
+#~ msgid "Seby DNS - AU"
+#~ msgstr "Seby DNS - Австралия"
+
+#~ msgid "Service Status [%s %s]"
+#~ msgstr "Статус службы [%s %s]"
+
+#~ msgid "Snopyta DNS - FI"
+#~ msgstr "Snopyta DNS - Финляндия"
+
+#~ msgid "Stopped"
+#~ msgstr "Остановлена"
+
+#~ msgid "Switch DNS - CH"
+#~ msgstr "Switch DNS - Китай"
+
+#~ msgid "Tiarap Public DNS - JP"
+#~ msgstr "Tiarap Public DNS - Япония"
+
+#~ msgid "Tiarap Public DNS - SG"
+#~ msgstr "Tiarap Public DNS - Сингапур"
+
+#~ msgid "Tsinghua University Secure DNS - CN"
+#~ msgstr "Tsinghua University Secure DNS - Китай"
+
+#~ msgid "Unknown Provider"
+#~ msgstr "Неизвестный поставщик"
+
+#~ msgid "Update %s config"
+#~ msgstr "Обновить настройки %s"
+
+#~ msgid "and"
+#~ msgstr "и"
+
+#~ msgid "disabled"
+#~ msgstr "отключено"
+
+#~ msgid "rubyfish.cn"
+#~ msgstr "rubyfish.cn"
+
+#~ msgid "DNSPod.cn Public DNS"
+#~ msgstr "Публичное DNS DNSPod.cn"
+
+#~ msgid "Digitale Gesellschaft"
+#~ msgstr "Digitale Gesellschaft"
+
+#~ msgid "IDNet.net (UK)"
+#~ msgstr "IDNet.net (UK)"
+
+#~ msgid "LibreDNS"
+#~ msgstr "LibreDNS"
+
+#~ msgid "LibreDNS (No Ads)"
+#~ msgstr "LibreDNS (без рекламы)"
+
+#~ msgid "Quad 101 (Taiwan)"
+#~ msgstr "Quad 101 (Тайвань)"
+
+#~ msgid "Running: %s DoH at %s:%s"
+#~ msgstr "Запущен: %s DoH, %s:%s"
+
+#~ msgid ""
+#~ "If update DNSMASQ config is selected, when you add/remove any instances "
+#~ "below, they will be used to override the 'DNS forwardings' section of "
+#~ "%sDHCP and DNS%s (%smore information%s)."
+#~ msgstr ""
+#~ "Если выбрана опция «Обновление настроек DNSMASQ», добавляемые ниже записи "
+#~ "будут перезаписывать настройки %sDHCP и DNS%s (%sбольше информации%s)."
+
+#~ msgid "Listen address"
+#~ msgstr "Адрес"
+
+#~ msgid "Listen port"
+#~ msgstr "Порт"
+
+#~ msgid "Proxy server"
+#~ msgstr "Прокси-сервер"
+
+#~ msgid "Alidns"
+#~ msgstr "Alidns"
+
+#~ msgid "EDNS client subnet"
+#~ msgstr "Клиентская подсеть EDNS"
+
+#~ msgid "Grant UCI access for luci-app-https-dns-proxy"
+#~ msgstr "Предоставить UCI доступ для luci-app-https-dns-proxy"
+
+#~ msgid "DNS Over HTTPS Proxy"
+#~ msgstr "DNS Over HTTPS"
+
+#~ msgid "DNS Over HTTPS Proxy Settings"
+#~ msgstr "Настройки DNS Over HTTPS"
+
+#~ msgid "DHCP and DNS"
+#~ msgstr "DHCP и DNS"
+
+#~ msgid "DoH"
+#~ msgstr "DoH"
+
+#~ msgid "Running"
+#~ msgstr "Запущен"
+
+#~ msgid "is not installed or not found"
+#~ msgstr "не установлен или не найден"

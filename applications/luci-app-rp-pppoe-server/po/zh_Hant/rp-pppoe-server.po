@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"PO-Revision-Date: 2024-10-08 11:44+0000\n"
-"Last-Translator: Wu Ming <lf3108626969@gmail.com>\n"
+"PO-Revision-Date: 2024-10-09 09:27+0000\n"
+"Last-Translator: try496 <pinghejk@gmail.com>\n"
 "Language-Team: Chinese (Traditional Han script) <https://hosted.weblate.org/"
 "projects/openwrt/luciapplicationsrp-pppoe-server/zh_Hant/>\n"
 "Language: zh_Hant\n"
@@ -228,3 +228,20 @@ msgstr "單元"
 #: applications/luci-app-rp-pppoe-server/htdocs/luci-static/resources/view/pppoe/rp-pppoe-server.js:76
 msgid "Use Non-UCI Config"
 msgstr ""
+
+#~ msgid ""
+#~ "Instead of starting at beginning and going to end, randomize session "
+#~ "number"
+#~ msgstr "隨機分配工作階段號碼，而不是按順序分配"
+
+#~ msgid "PPP unit number"
+#~ msgstr "PPP 單元編號"
+
+#~ msgid "Sync"
+#~ msgstr "同步"
+
+#~ msgid "Maximum sessions"
+#~ msgstr "最大工作階段數"
+
+#~ msgid "PPP offset"
+#~ msgstr "PPP 位移"

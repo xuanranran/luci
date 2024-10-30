@@ -84,3 +84,6 @@ msgid ""
 msgstr ""
 "VnStat este un monitor de trafic de rețea pentru Linux, care păstrează un "
 "jurnal de trafic de rețea pentru interfața selectată(e)."
+
+#~ msgid "The VnStat service has been restarted."
+#~ msgstr "Serviciul VnStat a fost restartat."

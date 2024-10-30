@@ -952,3 +952,38 @@ msgid ""
 msgstr ""
 "按下匯入按鈕時，既可以將本地映像檔載入到系統上，也可以從遠端下載有效的 Tar 格"
 "式的映像檔。"
+
+#~ msgid "CPU Useage"
+#~ msgstr "CPU 使用率"
+
+#~ msgid "Memory Useage"
+#~ msgstr "記憶體使用率"
+
+#~ msgid "Setting"
+#~ msgstr "設定值"
+
+#~ msgid "Specifies where the Docker daemon will listen for client connections"
+#~ msgstr "指定Docker常駐服務將在何處監聽客戶端連接"
+
+#~ msgid "Docker Container"
+#~ msgstr "Docker容器"
+
+#~ msgid "Docker Socket Path"
+#~ msgstr "Docker插槽路徑"
+
+#~ msgid ""
+#~ "DockerMan is a Simple Docker manager client for LuCI, If you have any "
+#~ "issue please visit:"
+#~ msgstr "DockerMan是LuCI的簡易Docker管理器客戶端，如果您有任何問題，請訪問："
+
+#~ msgid "Github"
+#~ msgstr "Github"
+
+#~ msgid "Import Images"
+#~ msgstr "匯入 映像檔"
+
+#~ msgid "New Container"
+#~ msgstr "新容器"
+
+#~ msgid "New Network"
+#~ msgstr "新網路"

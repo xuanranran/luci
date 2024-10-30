@@ -144,3 +144,9 @@ msgstr "parcial (%d/%d)"
 msgctxt "Only read permissions granted"
 msgid "readonly"
 msgstr "Leitura apenas"
+
+#~ msgid "Use plain password"
+#~ msgstr "Usar um senha simples"
+
+#~ msgid "Acess level"
+#~ msgstr "Nível de acesso"

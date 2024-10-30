@@ -41,10 +41,10 @@ msgstr "Người dùng Admin"
 #: applications/luci-app-frpc/htdocs/luci-static/resources/view/frpc.js:28
 msgid ""
 "AdminAddr specifies the address that the admin server binds to.<br />By "
-"default, this value is \"127.0.0.1\"."
+"default, this value is \"0.0.0.0\"."
 msgstr ""
 "AdminAddr chỉ định địa chỉ mà máy chủ quản trị liên kết đến.<br />Theo mặc "
-"định, giá trị này là \"127.0.0.1\"."
+"định, giá trị này là \"0.0.0.0\"."
 
 #: applications/luci-app-frpc/htdocs/luci-static/resources/view/frpc.js:29
 msgid ""
@@ -293,8 +293,8 @@ msgid ""
 "OS environments pass to frp for config file template, see <a href=\"https://"
 "github.com/fatedier/frp#configuration-file-template\">frp README</a>"
 msgstr ""
-"Môi trường hệ điều hành chuyển sang frp cho mẫu tệp cấu hình, xem <a "
-"href=\"https://github.com/fatedier/frp#configuration-file-template\">frp "
+"Môi trường hệ điều hành chuyển sang frp cho mẫu tệp cấu hình, xem <a href="
+"\"https://github.com/fatedier/frp#configuration-file-template\">frp "
 "README</a>"
 
 #: applications/luci-app-frpc/htdocs/luci-static/resources/view/frpc.js:76
@@ -339,9 +339,9 @@ msgid ""
 "\"udp\", \"http\", \"https\", \"stcp\", and \"xtcp\".<br />By default, this "
 "value is \"tcp\"."
 msgstr ""
-"ProxyType chỉ định loại proxy này. Các giá trị hợp lệ bao gồm \"tcp\", "
-"\"udp\", \"http\", \"https\", \"stcp\" và \"xtcp\".<br />Theo mặc định, giá "
-"trị này là \"tcp\"."
+"ProxyType chỉ định loại proxy này. Các giá trị hợp lệ bao gồm \"tcp\", \"udp"
+"\", \"http\", \"https\", \"stcp\" và \"xtcp\".<br />Theo mặc định, giá trị "
+"này là \"tcp\"."
 
 #: applications/luci-app-frpc/htdocs/luci-static/resources/view/frpc.js:163
 msgid "RUNNING"
@@ -391,10 +391,10 @@ msgstr "Cổng máy chủ"
 #: applications/luci-app-frpc/htdocs/luci-static/resources/view/frpc.js:20
 msgid ""
 "ServerAddr specifies the address of the server to connect to.<br />By "
-"default, this value is \"0.0.0.0\"."
+"default, this value is \"127.0.0.1\"."
 msgstr ""
 "ServerAddr chỉ định địa chỉ của máy chủ để kết nối.<br />Theo mặc định, giá "
-"trị này là \"0.0.0.0\"."
+"trị này là \"127.0.0.1\"."
 
 #: applications/luci-app-frpc/htdocs/luci-static/resources/view/frpc.js:21
 msgid ""

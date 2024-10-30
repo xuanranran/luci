@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"PO-Revision-Date: 2024-09-15 21:45+0000\n"
+"PO-Revision-Date: 2024-10-20 19:09+0000\n"
 "Last-Translator: Džiugas Januševičius <dziugas1959@hotmail.com>\n"
 "Language-Team: Lithuanian <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationsstatistics/lt/>\n"
@@ -9,9 +9,21 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"(n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 5.8-dev\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && ("
+"n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Weblate 5.8-rc\n"
+
+#: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/mqtt.js:47
+msgid "0 - At most once"
+msgstr "0 – Daugiausia, vienąjį kartą"
+
+#: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/mqtt.js:48
+msgid "1 - At least once"
+msgstr "1 – Nors kartą"
+
+#: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/mqtt.js:49
+msgid "2 - Exactly once"
+msgstr "2 – Tiksliai viena kartą"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/statistics/rrdtool/definitions/apcups.js:7
 #: applications/luci-app-statistics/root/usr/share/luci/statistics/plugins/apcups.json:2
@@ -152,6 +164,10 @@ msgstr "„Chrony“ papildinio konfigūracija"
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/chrony.js:32
 msgid "Chrony monitoring enabled"
 msgstr "„Chrony“ stebėjimas įjungtas"
+
+#: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/mqtt.js:72
+msgid "CleanSession"
+msgstr "„CleanSession“"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/olsrd.js:21
 msgid "CollectLinks"
@@ -366,6 +382,7 @@ msgstr "Įjungti statistiką"
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/tcpconns.js:12
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/thermal.js:13
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/unixsock.js:13
+#: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/users.js:10
 msgid "Enable this plugin"
 msgstr "Įjungti šį plėtinį"
 
@@ -426,6 +443,12 @@ msgstr "Tikimasi tinkamo laiko intervalo"
 msgid "Extra items"
 msgstr "Papildomi daiktai/elementai"
 
+#: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/mqtt.js:61
+#: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/mqtt.js:68
+#: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/mqtt.js:75
+msgid "False"
+msgstr "Klaidinga/Netiesa"
+
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/curl.js:14
 msgid "Fetch pages"
 msgstr "Paimti puslapius"
@@ -469,8 +492,7 @@ msgstr "Bendrieji papildiniai"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/openvpn.js:15
 msgid "Generate a separate graph for each logged user"
-msgstr ""
-"Sukurti atskirą grafiką kiekvienam prisijungusiam naudotojui/vartotojui"
+msgstr "Sukurti atskirą grafiką kiekvienam prisijungusiam naudotojui/vartotojui"
 
 #: applications/luci-app-statistics/root/usr/share/rpcd/acl.d/luci-app-statistics.json:3
 msgid "Grant access to statistics resources"
@@ -523,6 +545,7 @@ msgstr ""
 "Paslėpus laisvosios atminties elementą, grafiko mastelis/skalė keičiamas "
 "pagal faktinį atminties naudojimą, o ne 100 %."
 
+#: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/mqtt.js:29
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/olsrd.js:14
 msgid "Host"
 msgstr "Skleidėjas/Vedėjas"
@@ -912,6 +935,10 @@ msgstr[0] "Stebimas vienas jutiklis"
 msgstr[1] "Stebimi %d jutikliai"
 msgstr[2] "Stebima %d jutiklių"
 
+#: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/users.js:14
+msgid "Monitoring shell users count"
+msgstr "Stebimas apvalkalo naudotojų/vartotojų skaičius"
+
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/splash_leases.js:10
 msgid "Monitoring splash leases"
 msgstr "Stebimos „splash“ nuomos"
@@ -924,7 +951,20 @@ msgstr "Stebimos šiluminės zonos %s"
 msgid "More details about frequency usage and transitions"
 msgstr "Daugiau informacijos apie dažnio naudojimą ir perėjimus"
 
+#: applications/luci-app-statistics/root/usr/share/luci/statistics/plugins/mqtt.json:2
+msgid "Mqtt"
+msgstr "„Mqtt“"
+
+#: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/mqtt.js:6
+msgid "Mqtt Plugin Configuration"
+msgstr "„Mqtt“ papildinio konfigūracija"
+
+#: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/mqtt.js:86
+msgid "Mqtt plugin enabled"
+msgstr "„Mqtt“ papildinys įjungtas/įgalintas"
+
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/curl.js:25
+#: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/mqtt.js:25
 msgid "Name"
 msgstr "Vardas/Pavadinimas"
 
@@ -1016,6 +1056,10 @@ msgstr "Išvesties papildiniai"
 msgid "Overview"
 msgstr "Apžiūra"
 
+#: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/mqtt.js:41
+msgid "Password"
+msgstr "Slaptažodis"
+
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/memory.js:23
 msgid "Percent values"
 msgstr "Procentinės reikšmės"
@@ -1033,6 +1077,7 @@ msgstr "Ryšio atsako papildinio konfigūracija"
 msgid "Plugin is disabled"
 msgstr "Papildinys yra išjungtas"
 
+#: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/mqtt.js:34
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/olsrd.js:18
 msgid "Port"
 msgstr "Prievadas"
@@ -1050,6 +1095,10 @@ msgid "Possibly bug in collectd. Only 127.0.0.1 and localhost work"
 msgstr ""
 "Galimas trikdys/riktas per „collectd“. Veikia tik „127.0.0.1“ ir „localhost“"
 
+#: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/mqtt.js:53
+msgid "Prefix"
+msgstr "Prielinksnis/Priešdėlis"
+
 #: applications/luci-app-statistics/htdocs/luci-static/resources/statistics/rrdtool/definitions/processes.js:7
 #: applications/luci-app-statistics/root/usr/share/luci/statistics/plugins/processes.json:2
 msgid "Processes"
@@ -1064,9 +1113,17 @@ msgstr "Vyksmų papildinio konfigūracija"
 msgid "Processor"
 msgstr "Procesorius"
 
+#: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/mqtt.js:21
+msgid "Publish"
+msgstr "Paskelbti"
+
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/netlink.js:26
 msgid "Qdisc monitoring"
 msgstr "„Qdisc“ stebėjimas"
+
+#: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/mqtt.js:46
+msgid "QoS"
+msgstr "„QoS“"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/rrdtool.js:62
 msgid "RRD XFiles Factor"
@@ -1103,6 +1160,10 @@ msgstr "Būsenos pranešimas"
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/cpu.js:32
 msgid "Report in percent"
 msgstr "Pranešti procentais"
+
+#: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/mqtt.js:58
+msgid "Retain"
+msgstr "Išlaikyti"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/rrdtool.js:57
 msgid "Rows per RRA"
@@ -1158,6 +1219,10 @@ msgstr "Skriptas"
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/rrdtool.js:95
 msgid "Seconds"
 msgstr "Sekundės"
+
+#: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/mqtt.js:11
+msgid "Sends or receives data via mqtt"
+msgstr "Siunčia ar gauna duomenys per „mqtt“"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/sensors.js:25
 msgid "Sensor list"
@@ -1292,6 +1357,10 @@ msgstr "Saugyklos katalogas „csv“ failams"
 msgid "Store data values as rates instead of absolute values"
 msgstr "Talpinti duomenų reikšmes kaip spartas, vietoj absoliučių reikšmių"
 
+#: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/mqtt.js:65
+msgid "StoreRates"
+msgstr "„StoreRates“"
+
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/rrdtool.js:43
 msgid "Stored timespans"
 msgstr "Išsaugoti laikotarpiai"
@@ -1299,6 +1368,10 @@ msgstr "Išsaugoti laikotarpiai"
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/csv.js:24
 msgid "Storing CSV data in %s"
 msgstr "Saugomi „CSV“ duomenys į %s"
+
+#: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/mqtt.js:22
+msgid "Subscribe"
+msgstr "Prenumeruoti"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/tcpconns.js:30
 msgid "Summary of all ports"
@@ -1532,25 +1605,25 @@ msgid ""
 msgstr ""
 "Tinklo papildinys suteikią tinklo pagrįstą komunikaciją tarp skirtingų "
 "„collectd“ egzempliorių. „Collectd“ gali veikti tiek kliento, tiek serverio "
-"režimu. Kliento režimu vietovėje surinkti duomenys yra perduodami į surinktą "
-"serverio egzempliorių, serverio režimu vietinis egzempliorius gauna duomenys "
-"iš kitų skleidėjų/vedėjų."
+"veiksenos. Kliento veiksenos vietovėje surinktos duomenys yra perduodamos į "
+"surinktą serverio egzempliorių, serverio veiksenos vietinis egzempliorius "
+"gauna duomenys iš kitų skleidėjų/vedėjų."
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/ping.js:7
 msgid ""
 "The ping plugin will send icmp echo replies to selected hosts and measure "
 "the roundtrip time for each host."
 msgstr ""
-"Ryšio atsakos papildinys išsiųs „ICMP“ aido atsakymus į pasirinktus "
-"skleidėjus/vedėjus ir išmatuos kiekvieno skleidėjo/vedėjo atsako laiką."
+"Ryšio atsakos papildinys išsiųs „ICMP“ aido atsakymus į pasirinktus skleidė"
+"jus/vedėjus ir išmatuos kiekvieno skleidėjo/vedėjo atsako laiką."
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/processes.js:7
 msgid ""
 "The processes plugin collects information like cpu time, page faults and "
 "memory usage of selected processes."
 msgstr ""
-"Vyksmų papildinys renka tokią informaciją kaip „CPU“ laiką, puslapio "
-"trikčius/gedimus atminties naudojimą iš pasirinktų vyksmų."
+"Vyksmų papildinys renka tokią informaciją kaip „CPU“ laiką, puslapio trikč"
+"ius/gedimus atminties naudojimą iš pasirinktų vyksmų."
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/rrdtool.js:7
 msgid ""
@@ -1615,6 +1688,17 @@ msgstr ""
 msgid "The uptime plugin collects statistics about the uptime of the system."
 msgstr "Veikimo laiko papildinys renka statistiką apie sistemos veikimo laiką."
 
+#: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/users.js:7
+msgid ""
+"The users plugin collects statistics about users logged in locally via "
+"shell. NOTE: Local shell (wtmp) tracking is NOT enabled in default builds. "
+"Additional setup is required to get non-zero counts."
+msgstr ""
+"Naudotojų/Vartotojų papildinys renka statistiką apie naudotojus/vartotojus, "
+"prisijungusius lokaliai per apvalkalą. PASTABA: Vietinio apvalkalo („wtmp“) "
+"stebėjimas NĖRA įjungtas/įgalintas numatytosiose versijose. Norint gauti "
+"nenulinius skaičiavimus, reikia papildomos sąrankos."
+
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/graphs.js:179
 msgid "There is no RRD data available yet to render graphs."
 msgstr "Dar nėra „RRD“ duomenų, kad būtų galima atvaizduoti grafikus."
@@ -1656,6 +1740,16 @@ msgstr ""
 msgid "Timeout for polling chrony"
 msgstr "Pasibaigusios užklausos laikas apklausiant „chrony“"
 
+#: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/mqtt.js:79
+msgid "Topic"
+msgstr "Tema/Dalykas"
+
+#: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/mqtt.js:60
+#: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/mqtt.js:67
+#: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/mqtt.js:74
+msgid "True"
+msgstr "Teisingai/Tiesa"
+
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/collectd.js:80
 msgid "Try to look up fully qualified hostname"
 msgstr ""
@@ -1669,6 +1763,10 @@ msgstr "Nusiųsti reaktyviai „tolimai retransliuotas/-i“"
 #: applications/luci-app-statistics/htdocs/luci-static/resources/statistics/rrdtool/definitions/dsl.js:167
 msgid "Tx Retransmitted Near"
 msgstr "Nusiųsti reaktyviai „artimai retransliuotas/-i“"
+
+#: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/mqtt.js:20
+msgid "Type"
+msgstr "Tipas"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/statistics/rrdtool/definitions/nut.js:7
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/nut.js:14
@@ -1722,8 +1820,17 @@ msgstr "Panaudotas „PID“ failas"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/exec.js:27
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/exec.js:47
+#: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/mqtt.js:38
 msgid "User"
 msgstr "Naudotojas/Vartotojas"
+
+#: applications/luci-app-statistics/htdocs/luci-static/resources/statistics/rrdtool/definitions/users.js:7
+msgid "Users"
+msgstr "Naudotojai/Vartotojai"
+
+#: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/users.js:6
+msgid "Users Plugin Configuration"
+msgstr "Naudotojų/Vartotojų papildinio konfigūraciją"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/statistics/rrdtool/definitions/dsl.js:92
 msgid "Vectoring Down"

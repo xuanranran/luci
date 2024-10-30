@@ -142,3 +142,6 @@ msgstr "částečné (%d/%d)"
 msgctxt "Only read permissions granted"
 msgid "readonly"
 msgstr "pouze pro čtení"
+
+#~ msgid "Use plain password"
+#~ msgstr "Použít prosté heslo"

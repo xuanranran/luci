@@ -4,7 +4,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: applications/luci-app-ttyd/htdocs/luci-static/resources/view/ttyd/config.js:65
+#: applications/luci-app-ttyd/htdocs/luci-static/resources/view/ttyd/config.js:64
 msgid "Accept only one client and exit on disconnection"
 msgstr "শুধুমাত্র একটি ক্লায়েন্ট গ্রহণ করুন এবং সংযোগ বিচ্ছিন্ন করুন"
 
@@ -12,11 +12,11 @@ msgstr "শুধুমাত্র একটি ক্লায়েন্ট 
 msgid "Add instance"
 msgstr "ইন্সট্যান্স যোগ করুন"
 
-#: applications/luci-app-ttyd/htdocs/luci-static/resources/view/ttyd/config.js:49
+#: applications/luci-app-ttyd/htdocs/luci-static/resources/view/ttyd/config.js:48
 msgid "Allow URL args"
 msgstr "URL আর্গুমেন্টের অনুমতি দিন"
 
-#: applications/luci-app-ttyd/htdocs/luci-static/resources/view/ttyd/config.js:49
+#: applications/luci-app-ttyd/htdocs/luci-static/resources/view/ttyd/config.js:48
 msgid ""
 "Allow client to send command line arguments in URL (eg: http://"
 "localhost:7681?arg=foo&arg=bar)"
@@ -28,15 +28,15 @@ msgstr ""
 msgid "Bind to UNIX domain socket instead of IP port"
 msgstr ""
 
-#: applications/luci-app-ttyd/htdocs/luci-static/resources/view/ttyd/config.js:59
+#: applications/luci-app-ttyd/htdocs/luci-static/resources/view/ttyd/config.js:58
 msgid "Check origin"
 msgstr "উৎপত্তি নিশ্চিত করুন"
 
-#: applications/luci-app-ttyd/htdocs/luci-static/resources/view/ttyd/config.js:53
+#: applications/luci-app-ttyd/htdocs/luci-static/resources/view/ttyd/config.js:52
 msgid "Client option"
 msgstr "ক্লায়েন্ট অপশন"
 
-#: applications/luci-app-ttyd/htdocs/luci-static/resources/view/ttyd/config.js:89
+#: applications/luci-app-ttyd/htdocs/luci-static/resources/view/ttyd/config.js:88
 msgid "Command"
 msgstr "কমান্ড"
 
@@ -44,27 +44,27 @@ msgstr "কমান্ড"
 msgid "Config"
 msgstr "কনফিগারেশন"
 
-#: applications/luci-app-ttyd/htdocs/luci-static/resources/view/ttyd/config.js:37
+#: applications/luci-app-ttyd/htdocs/luci-static/resources/view/ttyd/config.js:36
 msgid "Credential"
 msgstr "ক্রিডেনশিয়াল"
 
-#: applications/luci-app-ttyd/htdocs/luci-static/resources/view/ttyd/config.js:37
+#: applications/luci-app-ttyd/htdocs/luci-static/resources/view/ttyd/config.js:36
 msgid "Credential for Basic Authentication"
 msgstr "বেসিক অথেনটিকেশনের ক্রিডেনশিয়াল"
 
-#: applications/luci-app-ttyd/htdocs/luci-static/resources/view/ttyd/config.js:67
+#: applications/luci-app-ttyd/htdocs/luci-static/resources/view/ttyd/config.js:66
 msgid "Custom index.html path"
 msgstr "কাস্টম index.html পাথ"
 
-#: applications/luci-app-ttyd/htdocs/luci-static/resources/view/ttyd/config.js:82
+#: applications/luci-app-ttyd/htdocs/luci-static/resources/view/ttyd/config.js:81
 msgid "Debug"
 msgstr "ডিবাগ"
 
-#: applications/luci-app-ttyd/htdocs/luci-static/resources/view/ttyd/config.js:51
+#: applications/luci-app-ttyd/htdocs/luci-static/resources/view/ttyd/config.js:50
 msgid "Do not allow clients to write to the TTY"
 msgstr "ক্লায়েন্টদের TTY- এ লিখতে দেবেন না"
 
-#: applications/luci-app-ttyd/htdocs/luci-static/resources/view/ttyd/config.js:59
+#: applications/luci-app-ttyd/htdocs/luci-static/resources/view/ttyd/config.js:58
 msgid "Do not allow websocket connection from different origin"
 msgstr "ভিন্ন উৎস থেকে ওয়েবসকেট সংযোগের অনুমতি দেবেন না"
 
@@ -72,15 +72,15 @@ msgstr "ভিন্ন উৎস থেকে ওয়েবসকেট স�
 msgid "Enable"
 msgstr "সক্রিয় করুন"
 
-#: applications/luci-app-ttyd/htdocs/luci-static/resources/view/ttyd/config.js:69
+#: applications/luci-app-ttyd/htdocs/luci-static/resources/view/ttyd/config.js:68
 msgid "Enable IPv6 support"
 msgstr "IPv6 সমর্থন সক্রিয় করুন"
 
-#: applications/luci-app-ttyd/htdocs/luci-static/resources/view/ttyd/config.js:71
+#: applications/luci-app-ttyd/htdocs/luci-static/resources/view/ttyd/config.js:70
 msgid "Enable SSL"
 msgstr "SSL সক্রিয় করুন"
 
-#: applications/luci-app-ttyd/htdocs/luci-static/resources/view/ttyd/config.js:83
+#: applications/luci-app-ttyd/htdocs/luci-static/resources/view/ttyd/config.js:82
 msgid "Error"
 msgstr "ভুল"
 
@@ -88,23 +88,23 @@ msgstr "ভুল"
 msgid "Grant UCI access for luci-app-ttyd"
 msgstr "luci-app-ttyd এর জন্য UCI অ্যাক্সেস প্রদান করুন"
 
-#: applications/luci-app-ttyd/htdocs/luci-static/resources/view/ttyd/config.js:43
+#: applications/luci-app-ttyd/htdocs/luci-static/resources/view/ttyd/config.js:42
 msgid "Group ID"
 msgstr "গ্রুপ আইডি"
 
-#: applications/luci-app-ttyd/htdocs/luci-static/resources/view/ttyd/config.js:43
+#: applications/luci-app-ttyd/htdocs/luci-static/resources/view/ttyd/config.js:42
 msgid "Group id to run with"
 msgstr "চালানোর জন্য গ্রুপ আইডি"
 
-#: applications/luci-app-ttyd/htdocs/luci-static/resources/view/ttyd/config.js:69
+#: applications/luci-app-ttyd/htdocs/luci-static/resources/view/ttyd/config.js:68
 msgid "IPv6"
 msgstr "IPv6"
 
-#: applications/luci-app-ttyd/htdocs/luci-static/resources/view/ttyd/config.js:67
+#: applications/luci-app-ttyd/htdocs/luci-static/resources/view/ttyd/config.js:66
 msgid "Index"
 msgstr "সূচিপত্র"
 
-#: applications/luci-app-ttyd/htdocs/luci-static/resources/view/ttyd/config.js:86
+#: applications/luci-app-ttyd/htdocs/luci-static/resources/view/ttyd/config.js:85
 msgid "Info"
 msgstr "তথ্য"
 
@@ -112,15 +112,15 @@ msgstr "তথ্য"
 msgid "Interface"
 msgstr "ইন্টারফেস"
 
-#: applications/luci-app-ttyd/htdocs/luci-static/resources/view/ttyd/config.js:94
+#: applications/luci-app-ttyd/htdocs/luci-static/resources/view/ttyd/config.js:93
 msgid "Make sure to set up another authorization method."
 msgstr ""
 
-#: applications/luci-app-ttyd/htdocs/luci-static/resources/view/ttyd/config.js:61
+#: applications/luci-app-ttyd/htdocs/luci-static/resources/view/ttyd/config.js:60
 msgid "Max clients"
 msgstr "সর্বোচ্চ ক্লায়েন্ট সংখ্যা"
 
-#: applications/luci-app-ttyd/htdocs/luci-static/resources/view/ttyd/config.js:61
+#: applications/luci-app-ttyd/htdocs/luci-static/resources/view/ttyd/config.js:60
 msgid "Maximum clients to support (default: 0, no limit)"
 msgstr "সমর্থন করার জন্য সর্বোচ্চ ক্লায়েন্ট সংখ্যা (ডিফল্ট: 0, কোন সীমা নেই)"
 
@@ -128,19 +128,19 @@ msgstr "সমর্থন করার জন্য সর্বোচ্চ �
 msgid "Network interface to bind (eg: eth0)"
 msgstr ""
 
-#: applications/luci-app-ttyd/htdocs/luci-static/resources/view/ttyd/config.js:93
+#: applications/luci-app-ttyd/htdocs/luci-static/resources/view/ttyd/config.js:92
 msgid "Note that reverse proxied pages is NOT protected by password like LuCI."
 msgstr ""
 
-#: applications/luci-app-ttyd/htdocs/luci-static/resources/view/ttyd/config.js:85
+#: applications/luci-app-ttyd/htdocs/luci-static/resources/view/ttyd/config.js:84
 msgid "Notice"
 msgstr "নির্দেশনা"
 
-#: applications/luci-app-ttyd/htdocs/luci-static/resources/view/ttyd/config.js:65
+#: applications/luci-app-ttyd/htdocs/luci-static/resources/view/ttyd/config.js:64
 msgid "Once"
 msgstr "একবার"
 
-#: applications/luci-app-ttyd/htdocs/luci-static/resources/view/ttyd/config.js:92
+#: applications/luci-app-ttyd/htdocs/luci-static/resources/view/ttyd/config.js:91
 msgid "Override URL in Terminal tab. For use with reverse proxy."
 msgstr ""
 
@@ -158,51 +158,51 @@ msgid ""
 "try again."
 msgstr ""
 
-#: applications/luci-app-ttyd/htdocs/luci-static/resources/view/ttyd/config.js:51
+#: applications/luci-app-ttyd/htdocs/luci-static/resources/view/ttyd/config.js:50
 msgid "Read-only"
 msgstr "শুধুমাত্র পাঠযোগ্য"
 
-#: applications/luci-app-ttyd/htdocs/luci-static/resources/view/ttyd/config.js:71
+#: applications/luci-app-ttyd/htdocs/luci-static/resources/view/ttyd/config.js:70
 msgid "SSL"
 msgstr "SSL"
 
-#: applications/luci-app-ttyd/htdocs/luci-static/resources/view/ttyd/config.js:79
+#: applications/luci-app-ttyd/htdocs/luci-static/resources/view/ttyd/config.js:78
 msgid "SSL CA file path for client certificate verification"
 msgstr "ক্লায়েন্ট সার্টিফিকেট যাচাইয়ের জন্য SSL CA ফাইল পাথ"
 
-#: applications/luci-app-ttyd/htdocs/luci-static/resources/view/ttyd/config.js:79
+#: applications/luci-app-ttyd/htdocs/luci-static/resources/view/ttyd/config.js:78
 msgid "SSL ca"
 msgstr "SSL ca"
 
-#: applications/luci-app-ttyd/htdocs/luci-static/resources/view/ttyd/config.js:73
+#: applications/luci-app-ttyd/htdocs/luci-static/resources/view/ttyd/config.js:72
 msgid "SSL cert"
 msgstr "SSL সার্টিফিকেট"
 
-#: applications/luci-app-ttyd/htdocs/luci-static/resources/view/ttyd/config.js:73
+#: applications/luci-app-ttyd/htdocs/luci-static/resources/view/ttyd/config.js:72
 msgid "SSL certificate file path"
 msgstr "SSL সার্টিফিকেট ফাইল পাথ"
 
-#: applications/luci-app-ttyd/htdocs/luci-static/resources/view/ttyd/config.js:76
+#: applications/luci-app-ttyd/htdocs/luci-static/resources/view/ttyd/config.js:75
 msgid "SSL key"
 msgstr "SSL কী"
 
-#: applications/luci-app-ttyd/htdocs/luci-static/resources/view/ttyd/config.js:76
+#: applications/luci-app-ttyd/htdocs/luci-static/resources/view/ttyd/config.js:75
 msgid "SSL key file path"
 msgstr "SSL কী ফাইল পাথ"
 
-#: applications/luci-app-ttyd/htdocs/luci-static/resources/view/ttyd/config.js:53
+#: applications/luci-app-ttyd/htdocs/luci-static/resources/view/ttyd/config.js:52
 msgid "Send option to client"
 msgstr "ক্লায়েন্টকে অপশন পাঠান"
 
-#: applications/luci-app-ttyd/htdocs/luci-static/resources/view/ttyd/config.js:82
+#: applications/luci-app-ttyd/htdocs/luci-static/resources/view/ttyd/config.js:81
 msgid "Set log level (default: 7)"
 msgstr "লগের স্তর সেট করুন (ডিফল্ট: 7)"
 
-#: applications/luci-app-ttyd/htdocs/luci-static/resources/view/ttyd/config.js:46
+#: applications/luci-app-ttyd/htdocs/luci-static/resources/view/ttyd/config.js:45
 msgid "Signal"
 msgstr "সংকেত"
 
-#: applications/luci-app-ttyd/htdocs/luci-static/resources/view/ttyd/config.js:46
+#: applications/luci-app-ttyd/htdocs/luci-static/resources/view/ttyd/config.js:45
 msgid "Signal to send to the command when exit it (default: 1, SIGHUP)"
 msgstr "কমান্ড থেকে প্রস্থান করার সময় সংকেত প্রেরণ করুন (ডিফল্ট: 1, SIGHUP)"
 
@@ -211,15 +211,15 @@ msgstr "কমান্ড থেকে প্রস্থান করার �
 msgid "Terminal"
 msgstr "টার্মিনাল"
 
-#: applications/luci-app-ttyd/htdocs/luci-static/resources/view/ttyd/config.js:56
+#: applications/luci-app-ttyd/htdocs/luci-static/resources/view/ttyd/config.js:55
 msgid "Terminal type"
 msgstr "টার্মিনালের ধরণ"
 
-#: applications/luci-app-ttyd/htdocs/luci-static/resources/view/ttyd/config.js:56
+#: applications/luci-app-ttyd/htdocs/luci-static/resources/view/ttyd/config.js:55
 msgid "Terminal type to report (default: xterm-256color)"
 msgstr "রিপোর্ট করার জন্য টার্মিনাল টাইপ (ডিফল্ট: xterm-256color)"
 
-#: applications/luci-app-ttyd/htdocs/luci-static/resources/view/ttyd/config.js:32
+#: applications/luci-app-ttyd/htdocs/luci-static/resources/view/ttyd/config.js:31
 msgid "UNIX domain socket path (eg: /var/run/ttyd.sock)"
 msgstr ""
 
@@ -227,26 +227,40 @@ msgstr ""
 msgid "UNIX socket"
 msgstr ""
 
-#: applications/luci-app-ttyd/htdocs/luci-static/resources/view/ttyd/config.js:32
+#: applications/luci-app-ttyd/htdocs/luci-static/resources/view/ttyd/config.js:31
 msgid "UNIX socket path"
 msgstr ""
 
-#: applications/luci-app-ttyd/htdocs/luci-static/resources/view/ttyd/config.js:91
+#: applications/luci-app-ttyd/htdocs/luci-static/resources/view/ttyd/config.js:90
 msgid "URL override"
 msgstr ""
 
-#: applications/luci-app-ttyd/htdocs/luci-static/resources/view/ttyd/config.js:40
+#: applications/luci-app-ttyd/htdocs/luci-static/resources/view/ttyd/config.js:39
 msgid "User ID"
 msgstr "ইউজার আইডি"
 
-#: applications/luci-app-ttyd/htdocs/luci-static/resources/view/ttyd/config.js:40
+#: applications/luci-app-ttyd/htdocs/luci-static/resources/view/ttyd/config.js:39
 msgid "User id to run with"
 msgstr "যে ইউজারের আইডি দিয়ে চালাতে হবে"
 
-#: applications/luci-app-ttyd/htdocs/luci-static/resources/view/ttyd/config.js:84
+#: applications/luci-app-ttyd/htdocs/luci-static/resources/view/ttyd/config.js:83
 msgid "Warning"
 msgstr "সতর্কতা"
 
 #: applications/luci-app-ttyd/htdocs/luci-static/resources/view/ttyd/config.js:12
 msgid "ttyd Instance"
 msgstr "ttyd ইনস্ট্যান্স"
+
+#~ msgid ""
+#~ "Network interface to bind (eg: eth0), or UNIX domain socket path (eg: /"
+#~ "var/run/ttyd.sock)"
+#~ msgstr ""
+#~ "যে নেটওয়ার্ক ইন্টারফেস (যেমনঃ eth0), বা UNIX ডোমেইন সকেট পাথ (যেমনঃ /var/"
+#~ "run/ttyd.sock) bind করতে হবে"
+
+#~ msgid ""
+#~ "Random ttyd port (port=0) is not supported.<br>Change to a fixed port and "
+#~ "try again."
+#~ msgstr ""
+#~ "র‍্যান্ডম ttyd পোর্ট (port = 0) সমর্থিত নয়। <br> একটি নির্দিষ্ট পোর্টে পরিবর্তন "
+#~ "করুন এবং আবার চেষ্টা করুন।"

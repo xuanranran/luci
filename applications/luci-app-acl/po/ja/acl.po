@@ -144,3 +144,6 @@ msgstr "部分的 (%d/%d)"
 msgctxt "Only read permissions granted"
 msgid "readonly"
 msgstr "読み取り専用"
+
+#~ msgid "Use plain password"
+#~ msgstr "平文パスワードを使用"

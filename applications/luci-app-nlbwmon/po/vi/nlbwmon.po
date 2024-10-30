@@ -144,8 +144,8 @@ msgid ""
 "Changing the accounting interval type will invalidate existing databases!"
 "<br /><strong><a href=\"%s\">Download backup</a></strong>."
 msgstr ""
-"Thay đổi loại khoảng thời gian tính toán sẽ làm hủy bỏ cơ sở dữ liệu hiện có!"
-"<br /><strong><a href=\"%s\">Tải về bản sao lưu</a></strong>."
+"Thay đổi loại khoảng thời gian tính toán sẽ làm hủy bỏ cơ sở dữ liệu hiện "
+"có!<br /><strong><a href=\"%s\">Tải về bản sao lưu</a></strong>."
 
 #: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw/config.js:64
 msgid ""

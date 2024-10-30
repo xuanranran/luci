@@ -839,3 +839,6 @@ msgstr ""
 #: applications/luci-app-openvpn/luasrc/model/cbi/openvpn.lua:111
 msgid "yes (%i)"
 msgstr "ναι (%i)"
+
+#~ msgid "%s"
+#~ msgstr "%s"

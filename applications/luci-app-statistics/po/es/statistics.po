@@ -14,6 +14,18 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 5.8-dev\n"
 
+#: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/mqtt.js:47
+msgid "0 - At most once"
+msgstr "0 - Como mucho uno"
+
+#: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/mqtt.js:48
+msgid "1 - At least once"
+msgstr "1 - Al menos uno"
+
+#: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/mqtt.js:49
+msgid "2 - Exactly once"
+msgstr "2 - Exactamente uno"
+
 #: applications/luci-app-statistics/htdocs/luci-static/resources/statistics/rrdtool/definitions/apcups.js:7
 #: applications/luci-app-statistics/root/usr/share/luci/statistics/plugins/apcups.json:2
 msgid "APC UPS"
@@ -155,6 +167,10 @@ msgstr "Configuración del complemento Chrony"
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/chrony.js:32
 msgid "Chrony monitoring enabled"
 msgstr "Monitoreo de Chrony activado"
+
+#: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/mqtt.js:72
+msgid "CleanSession"
+msgstr "Limpiar sesión"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/olsrd.js:21
 msgid "CollectLinks"
@@ -369,6 +385,7 @@ msgstr "Activar estadísticas"
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/tcpconns.js:12
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/thermal.js:13
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/unixsock.js:13
+#: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/users.js:10
 msgid "Enable this plugin"
 msgstr "Activar este complemento"
 
@@ -428,6 +445,12 @@ msgstr "Esperando un rango de tiempo válido"
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/cpufreq.js:15
 msgid "Extra items"
 msgstr "Ítems extra"
+
+#: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/mqtt.js:61
+#: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/mqtt.js:68
+#: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/mqtt.js:75
+msgid "False"
+msgstr "Falso"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/curl.js:14
 msgid "Fetch pages"
@@ -523,6 +546,7 @@ msgstr ""
 "Ocultar el elemento de memoria libre hace que el gráfico se escale según el "
 "uso de memoria real, no al 100%."
 
+#: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/mqtt.js:29
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/olsrd.js:14
 msgid "Host"
 msgstr "Host"
@@ -895,6 +919,10 @@ msgid_plural "Monitoring %d sensors"
 msgstr[0] "Monitoreo de un sensor"
 msgstr[1] "Monitoreo de %d sensores"
 
+#: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/users.js:14
+msgid "Monitoring shell users count"
+msgstr "Supervisar el número de usuarios de shell"
+
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/splash_leases.js:10
 msgid "Monitoring splash leases"
 msgstr "Monitoreo de splash leases"
@@ -907,7 +935,20 @@ msgstr "Monitoreo de zonas térmicas %s"
 msgid "More details about frequency usage and transitions"
 msgstr "Más detalles sobre el uso de frecuencia y las transiciones"
 
+#: applications/luci-app-statistics/root/usr/share/luci/statistics/plugins/mqtt.json:2
+msgid "Mqtt"
+msgstr "Mqtt"
+
+#: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/mqtt.js:6
+msgid "Mqtt Plugin Configuration"
+msgstr "Configuración del plugin Mqtt"
+
+#: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/mqtt.js:86
+msgid "Mqtt plugin enabled"
+msgstr "Plugin Mqtt activado"
+
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/curl.js:25
+#: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/mqtt.js:25
 msgid "Name"
 msgstr "Nombre"
 
@@ -999,6 +1040,10 @@ msgstr "Plugins de salida"
 msgid "Overview"
 msgstr "Descripción general"
 
+#: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/mqtt.js:41
+msgid "Password"
+msgstr "Contraseña"
+
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/memory.js:23
 msgid "Percent values"
 msgstr "Valores porcentuales"
@@ -1016,6 +1061,7 @@ msgstr "Configuración del plugin \"Ping\""
 msgid "Plugin is disabled"
 msgstr "El complemento está desactivado"
 
+#: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/mqtt.js:34
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/olsrd.js:18
 msgid "Port"
 msgstr "Puerto"
@@ -1032,6 +1078,10 @@ msgstr "Puerto para chronyd"
 msgid "Possibly bug in collectd. Only 127.0.0.1 and localhost work"
 msgstr "Posiblemente error en collectd. Solo 127.0.0.1 y localhost funcionan"
 
+#: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/mqtt.js:53
+msgid "Prefix"
+msgstr "Prefijo"
+
 #: applications/luci-app-statistics/htdocs/luci-static/resources/statistics/rrdtool/definitions/processes.js:7
 #: applications/luci-app-statistics/root/usr/share/luci/statistics/plugins/processes.json:2
 msgid "Processes"
@@ -1046,9 +1096,17 @@ msgstr "Configuración del plugin \"Procesos\""
 msgid "Processor"
 msgstr "Procesador"
 
+#: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/mqtt.js:21
+msgid "Publish"
+msgstr "Publicar"
+
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/netlink.js:26
 msgid "Qdisc monitoring"
 msgstr "Monitorización Qdisc"
+
+#: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/mqtt.js:46
+msgid "QoS"
+msgstr "QoS"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/rrdtool.js:62
 msgid "RRD XFiles Factor"
@@ -1085,6 +1143,10 @@ msgstr "Informe por estado"
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/cpu.js:32
 msgid "Report in percent"
 msgstr "Informe en porcentaje"
+
+#: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/mqtt.js:58
+msgid "Retain"
+msgstr "Retener"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/rrdtool.js:57
 msgid "Rows per RRA"
@@ -1140,6 +1202,10 @@ msgstr "Script"
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/rrdtool.js:95
 msgid "Seconds"
 msgstr "Segundos"
+
+#: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/mqtt.js:11
+msgid "Sends or receives data via mqtt"
+msgstr "Envía o recibe datos a través de mqtt"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/sensors.js:25
 msgid "Sensor list"
@@ -1275,6 +1341,10 @@ msgstr "Directorio para guardar archivos csv"
 msgid "Store data values as rates instead of absolute values"
 msgstr "Guardar datos como ratios en vez de valores absolutos"
 
+#: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/mqtt.js:65
+msgid "StoreRates"
+msgstr "Almacenar tasas"
+
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/rrdtool.js:43
 msgid "Stored timespans"
 msgstr "Intervalos almacenados"
@@ -1282,6 +1352,10 @@ msgstr "Intervalos almacenados"
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/csv.js:24
 msgid "Storing CSV data in %s"
 msgstr "Almacenar datos CSV en %s"
+
+#: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/mqtt.js:22
+msgid "Subscribe"
+msgstr "Suscribir"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/tcpconns.js:30
 msgid "Summary of all ports"
@@ -1603,6 +1677,17 @@ msgstr ""
 "El plugin \"uptime\" recopila estadísticas sobre el tiempo de actividad del "
 "sistema."
 
+#: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/users.js:7
+msgid ""
+"The users plugin collects statistics about users logged in locally via "
+"shell. NOTE: Local shell (wtmp) tracking is NOT enabled in default builds. "
+"Additional setup is required to get non-zero counts."
+msgstr ""
+"El plugin usuarios recolecta estadísticas sobre los usuarios que han "
+"iniciado sesión via shell. NOTA: seguimiento de shell local (wtmp) NO está "
+"activado en las compilaciones por defecto. Se necesita una configuración "
+"adicional para obtener contadores distintos de cero."
+
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/graphs.js:179
 msgid "There is no RRD data available yet to render graphs."
 msgstr "Todavía no hay datos RRD disponibles para representar gráficos."
@@ -1647,6 +1732,16 @@ msgstr ""
 msgid "Timeout for polling chrony"
 msgstr "Tiempo de espera para la votación chrony"
 
+#: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/mqtt.js:79
+msgid "Topic"
+msgstr "Tema"
+
+#: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/mqtt.js:60
+#: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/mqtt.js:67
+#: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/mqtt.js:74
+msgid "True"
+msgstr "Verdadero"
+
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/collectd.js:80
 msgid "Try to look up fully qualified hostname"
 msgstr "Intenta resolver el nombre de máquina cualificado"
@@ -1658,6 +1753,10 @@ msgstr "TX retransmitido lejos"
 #: applications/luci-app-statistics/htdocs/luci-static/resources/statistics/rrdtool/definitions/dsl.js:167
 msgid "Tx Retransmitted Near"
 msgstr "TX retransmitido cerca"
+
+#: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/mqtt.js:20
+msgid "Type"
+msgstr "Tipo"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/statistics/rrdtool/definitions/nut.js:7
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/nut.js:14
@@ -1709,8 +1808,17 @@ msgstr "Archivo PID utilizado"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/exec.js:27
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/exec.js:47
+#: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/mqtt.js:38
 msgid "User"
 msgstr "Usuario"
+
+#: applications/luci-app-statistics/htdocs/luci-static/resources/statistics/rrdtool/definitions/users.js:7
+msgid "Users"
+msgstr "Usuarios"
+
+#: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/users.js:6
+msgid "Users Plugin Configuration"
+msgstr "Configuración del plugin Usuarios"
 
 #: applications/luci-app-statistics/htdocs/luci-static/resources/statistics/rrdtool/definitions/dsl.js:92
 msgid "Vectoring Down"
@@ -1840,3 +1948,109 @@ msgstr "reduce el tamaño RRD"
 #: applications/luci-app-statistics/htdocs/luci-static/resources/view/statistics/plugins/tcpconns.js:45
 msgid "summary of all ports"
 msgstr "resumen de todos los puertos"
+
+#~ msgid "Monitoring %s and %s"
+#~ msgstr "Monitoreando %s y %s"
+
+#~ msgid "Monitoring local listen ports"
+#~ msgstr "Monitoreo de puertos de escucha locales"
+
+#~ msgid "one local port"
+#~ msgid_plural "%d local ports"
+#~ msgstr[0] "un puerto local"
+#~ msgstr[1] "%d puertos locales"
+
+#, fuzzy
+#~ msgid ""
+#~ "When a host has not replied to this number of packets in a row, re-"
+#~ "resolve the hostname in DNS. Useful for dynamic DNS hosts."
+#~ msgstr ""
+#~ "Cuando un host no ha respondido a esta cantidad de paquetes seguidos, "
+#~ "vuelva a resolver el nombre de host en DNS. Útil para hosts DNS dinámicos."
+
+#~ msgid "Cache flush interval"
+#~ msgstr "Intervalo de limpieza de antememoria"
+
+#~ msgid ""
+#~ "The statistics package uses <a href=\"https://collectd.org/\">Collectd</"
+#~ "a> to gather data and <a href=\"http://oss.oetiker.ch/rrdtool/\">RRDtool</"
+#~ "a> to render diagram images."
+#~ msgstr ""
+#~ "El paquete de estadísticas utiliza <a href=\"https://collectd.org/"
+#~ "\">Collectd</a> para recopilar datos y <a href=\"http://oss.oetiker.ch/"
+#~ "rrdtool/\">RRDtool</a> para renderizar imágenes de diagramas."
+
+#~ msgid ""
+#~ "You can install additional collectd-mod-* plugins to enable more "
+#~ "statistics."
+#~ msgstr ""
+#~ "Puede instalar plugins collectd-mod-* adicionales para activar más "
+#~ "estadísticas."
+
+#~ msgid "Action (target)"
+#~ msgstr "Acción (objetivo)"
+
+#~ msgid "Add matching rule"
+#~ msgstr "Añadir regla de coincidencia"
+
+#~ msgid "Add multiple hosts separated by space."
+#~ msgstr "Añadir múltiples hosts separados por espacio."
+
+#~ msgid ""
+#~ "Collectd is a small daemon for collecting data from various sources "
+#~ "through different plugins. On this page you can change general settings "
+#~ "for the collectd daemon."
+#~ msgstr ""
+#~ "Collectd es un demonio para la recolección de datos desde varias fuentes "
+#~ "a través de la utilización de diferentes plugins. Aquí puede cambiar la "
+#~ "configuración general del demonio que maneja collectd."
+
+#~ msgid "Destination ip range"
+#~ msgstr "Intervalo de IP de destino"
+
+#~ msgid "Hold Ctrl to select multiple items or to deselect entries."
+#~ msgstr ""
+#~ "Mantenga presionada la tecla Ctrl para seleccionar varios elementos o "
+#~ "para deseleccionar entradas."
+
+#~ msgid "Incoming interface"
+#~ msgstr "Interfaz de entrada"
+
+#~ msgid "Monitor all sensors"
+#~ msgstr "Monitorear todos los sensores"
+
+#~ msgid "Name of the rule"
+#~ msgstr "Nombre de la regla"
+
+#~ msgid "Network protocol"
+#~ msgstr "Protocolo de red"
+
+#~ msgid "Options"
+#~ msgstr "Opciones"
+
+#~ msgid "Outgoing interface"
+#~ msgstr "Interfaz de salida"
+
+#~ msgid "Processes to monitor separated by space"
+#~ msgstr "Procesos a monitorizar (separados por espacios)"
+
+#~ msgid "Source ip range"
+#~ msgstr "Rango de direcciones IP origen"
+
+#~ msgid "e.g. br-ff"
+#~ msgstr "p.e. br-ff"
+
+#~ msgid "e.g. br-lan"
+#~ msgstr "p.e. br-lan"
+
+#~ msgid "e.g. reject-with tcp-reset"
+#~ msgstr "p.e. reject-with tcp-reset"
+
+#~ msgid "max. 16 chars"
+#~ msgstr "16 caracteres máximo"
+
+#~ msgid "seconds; multiple separated by space"
+#~ msgstr "segundos (varios separados por espacio)"
+
+#~ msgid "server interfaces"
+#~ msgstr "interfaces de servidores"

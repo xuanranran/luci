@@ -78,3 +78,6 @@ msgstr "Повідомити інформацію про клієнта"
 #: applications/luci-app-nextdns/htdocs/luci-static/resources/view/nextdns/overview.js:24
 msgid "The ID of your NextDNS configuration."
 msgstr ""
+
+#~ msgid "Configuration"
+#~ msgstr "Конфігурація"

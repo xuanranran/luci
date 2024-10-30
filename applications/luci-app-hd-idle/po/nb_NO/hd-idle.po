@@ -83,3 +83,12 @@ msgstr ""
 msgctxt "Abbreviation for seconds"
 msgid "seconds"
 msgstr ""
+
+#~ msgid "h"
+#~ msgstr "timer"
+
+#~ msgid "min"
+#~ msgstr "minutter"
+
+#~ msgid "Enable debug"
+#~ msgstr "Aktiver feilsøking"

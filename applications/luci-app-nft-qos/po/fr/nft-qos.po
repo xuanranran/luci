@@ -266,3 +266,6 @@ msgstr "par exemple https, 23, (le séparateur est une virgule)"
 #: applications/luci-app-nft-qos/luasrc/view/nft-qos/rate.htm:44
 msgid "kB"
 msgstr "kB"
+
+#~ msgid "MAC (optional)"
+#~ msgstr "MAC (facultatif)"

@@ -24,7 +24,7 @@ msgid "Advanced Mode"
 msgstr "Расширенный режим"
 
 #: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/configuration.js:11
-#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:610
+#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:602
 #: applications/luci-app-attendedsysupgrade/root/usr/share/luci/menu.d/luci-app-attendedsysupgrade.json:3
 msgid "Attended Sysupgrade"
 msgstr "Обновление Системы"
@@ -33,20 +33,20 @@ msgstr "Обновление Системы"
 msgid "Attendedsysupgrade Configuration."
 msgstr "Конфигурация обновления системы."
 
-#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:521
+#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:511
 msgid "Board Name / Profile"
 msgstr "Имя платформы / Профиль"
 
-#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:132
+#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:116
 msgid "Build Date"
 msgstr "Дата сборки"
 
-#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:209
+#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:193
 msgid "Building Firmware..."
 msgstr "Сборка прошивки..."
 
-#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:172
-#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:536
+#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:156
+#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:526
 msgid "Cancel"
 msgstr "Отмена"
 
@@ -54,10 +54,10 @@ msgstr "Отмена"
 msgid "Client"
 msgstr "Клиент"
 
-#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:247
-#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:381
-#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:436
-#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:570
+#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:237
+#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:374
+#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:429
+#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:563
 msgid "Close"
 msgstr "Закрыть"
 
@@ -65,20 +65,20 @@ msgstr "Закрыть"
 msgid "Configuration"
 msgstr "Конфигурация"
 
-#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:430
+#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:423
 msgid "Could not reach API at \"%s\". Please try again later."
 msgstr "API сервера \"%s\" недоступен. Пожалуйста, попробуйте позднее."
 
-#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:529
-#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:625
+#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:519
+#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:617
 msgid "Currently running: %s - %s"
 msgstr "Сейчас работает: %s - %s"
 
-#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:299
+#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:289
 msgid "Download"
 msgstr "Скачать"
 
-#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:143
+#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:127
 msgid "Download firmware image"
 msgstr "Скачать образ прошивки"
 
@@ -86,31 +86,31 @@ msgstr "Скачать образ прошивки"
 msgid "Downloading ImageBuilder archive"
 msgstr "Загрузка архива ImageBuilder"
 
-#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:342
+#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:335
 msgid "Downloading firmware from server to browser"
 msgstr "Скачивание прошивки с сервера через браузер"
 
-#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:338
+#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:331
 msgid "Downloading..."
 msgstr "Скачивание..."
 
-#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:251
+#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:241
 msgid "Error building the firmware image"
 msgstr "Ошибка сборки образа прошивки"
 
-#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:426
+#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:419
 msgid "Error connecting to upgrade server"
 msgstr "Ошибка соединения с сервером обновления"
 
-#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:379
+#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:372
 msgid "Error during download of firmware. Please try again"
 msgstr "Ошибка при скачивании прошивки. Пожалуйста, попробуйте ещё раз"
 
-#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:134
+#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:118
 msgid "Filename"
 msgstr "Имя файла"
 
-#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:136
+#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:120
 msgid "Filesystem"
 msgstr "Файловая система"
 
@@ -122,27 +122,27 @@ msgstr "Создание образа прошивки"
 msgid "Grant UCI access to LuCI app attendedsysupgrade"
 msgstr "Предоставить UCI доступ к приложению LuCI attendedsysupgrade"
 
-#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:182
+#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:166
 msgid "Install firmware image"
 msgstr "Установить образ прошивки"
 
-#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:388
+#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:381
 msgid "Installing the sysupgrade. Do not unpower device!"
 msgstr "Установка обновления системы. Не выключайте устройство!"
 
-#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:384
+#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:377
 msgid "Installing..."
 msgstr "Установка..."
 
-#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:168
+#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:152
 msgid "Keep settings and retain the current configuration"
 msgstr "Сохранить настройки и оставить текущую конфигурацию"
 
-#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:526
+#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:516
 msgid "New firmware upgrade available"
 msgstr "Новое обновление прошивки доступно"
 
-#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:561
+#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:554
 msgid "No upgrade available"
 msgstr "Нет доступных обновлений"
 
@@ -158,23 +158,23 @@ msgstr ""
 msgid "Overview"
 msgstr "Обзор"
 
-#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:522
+#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:512
 msgid "Packages"
 msgstr "Пакеты"
 
-#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:229
+#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:219
 msgid "Please report the error message and request"
 msgstr "Пожалуйста, сообщите текст ошибки и запроса"
 
-#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:128
+#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:112
 msgid "Profile"
 msgstr "Профиль"
 
-#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:213
+#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:197
 msgid "Progress: %s%% %s"
 msgstr "Ход выполнения: %s%% %s"
 
-#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:199
+#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:183
 msgid "Queued..."
 msgstr "В очереди..."
 
@@ -182,7 +182,7 @@ msgstr "В очереди..."
 msgid "Rebuilders"
 msgstr "Реконструкторы"
 
-#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:146
+#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:130
 msgid "Rebuilds"
 msgstr "Перестраивает"
 
@@ -190,23 +190,23 @@ msgstr "Перестраивает"
 msgid "Received build request"
 msgstr "Получен запрос на сборку"
 
-#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:231
+#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:221
 msgid "Request Data:"
 msgstr "Данные запроса:"
 
-#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:555
+#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:548
 msgid "Request firmware image"
 msgstr "Запросить образ прошивки"
 
-#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:203
+#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:187
 msgid "Request in build queue position %s"
 msgstr "Запрос в очереди сборки, позиция %s"
 
-#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:122
+#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:106
 msgid "SHA256"
 msgstr "SHA256"
 
-#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:636
+#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:628
 msgid "Search for firmware upgrade"
 msgstr "Поиск обновлений прошивки"
 
@@ -218,11 +218,11 @@ msgstr "Искать новые системные обновления при �
 msgid "Search on opening"
 msgstr "Искать при открытии"
 
-#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:417
+#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:410
 msgid "Searching for an available sysupgrade of %s - %s"
 msgstr "Поиск доступной версии sysupgrade %s - %s"
 
-#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:413
+#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:406
 msgid "Searching..."
 msgstr "Поиск..."
 
@@ -230,7 +230,7 @@ msgstr "Поиск..."
 msgid "Server"
 msgstr "Сервер"
 
-#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:225
+#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:215
 msgid "Server response: %s"
 msgstr "Ответ сервера: %s"
 
@@ -242,15 +242,15 @@ msgstr "Настройка ImageBuilder"
 msgid "Show advanced options like package list modification"
 msgstr "Показать расширенные параметры, такие как модификация списка пакетов"
 
-#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:187
+#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:171
 msgid "Successfully created firmware image"
 msgstr "Образ прошивки создан успешно"
 
-#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:130
+#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:114
 msgid "Target"
 msgstr "Приоритет"
 
-#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:614
+#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:606
 msgid ""
 "The attended sysupgrade service allows to easily upgrade vanilla and custom "
 "firmware images."
@@ -258,21 +258,21 @@ msgstr ""
 "Данная служба позволяет легко обновлять ванильные и пользовательские образы "
 "прошивки."
 
-#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:564
+#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:557
 msgid "The device runs the latest firmware version %s - %s"
 msgstr "На устройстве установлена последняя версия прошивки %s - %s"
 
-#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:620
+#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:612
 msgid ""
 "This is done by building a new firmware on demand via an online service."
 msgstr ""
 "Это делается путём создания новой прошивки по требованию через онлайн-сервис."
 
-#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:364
+#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:357
 msgid "Uploading firmware from browser to device"
 msgstr "Загрузка прошивки из браузера на устройство"
 
-#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:360
+#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:353
 msgid "Uploading..."
 msgstr "Загрузка..."
 
@@ -280,14 +280,80 @@ msgstr "Загрузка..."
 msgid "Validate package selection"
 msgstr "Проверка выбора пакета"
 
-#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:120
+#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:104
 msgid "Version"
 msgstr "Версия"
 
-#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:376
+#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:369
 msgid "Wrong checksum"
 msgstr "Неверная контрольная сумма"
 
-#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:506
+#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:496
 msgid "[installed] %s"
 msgstr "[установлено] %s"
+
+#~ msgid "10% Received build request"
+#~ msgstr "10% Получен запрос на сборку"
+
+#~ msgid "20% Downloading ImageBuilder archive"
+#~ msgstr "20% Загрузка архива ImageBuilder"
+
+#~ msgid "40% Setting Up ImageBuilder"
+#~ msgstr "40% Установка ImageBuilder"
+
+#~ msgid "60% Validate package selection"
+#~ msgstr "60% Проверка выбранных пакетов"
+
+#~ msgid "80% Generating firmware image"
+#~ msgstr "80% Генерация образа прошивки"
+
+#~ msgid "Progress: %s"
+#~ msgstr "Прогресс: %s"
+
+#~ msgid "Building firmware sysupgrade image"
+#~ msgstr "Сборка sysupgrade-образа прошивки"
+
+#~ msgid "Error building the sysupgrade"
+#~ msgstr "Ошибка при создании обновления системы"
+
+#~ msgid "File"
+#~ msgstr "Файл"
+
+#~ msgid "Install Sysupgrade"
+#~ msgstr "Установить обновление системы"
+
+#~ msgid "New upgrade available"
+#~ msgstr "Доступно новое обновление"
+
+#~ msgid "Request Sysupgrade"
+#~ msgstr "Запросить обновление системы"
+
+#~ msgid "Request to server:"
+#~ msgstr "Запрос к серверу:"
+
+#~ msgid "Search for sysupgrade"
+#~ msgstr "Искать обновление системы"
+
+#~ msgid "Successfully created sysupgrade image"
+#~ msgstr "Образ обновления системы успешно создан"
+
+#~ msgid "Request in build queue position %d"
+#~ msgstr "Запрос в очереди сборки на позиции %d"
+
+#~ msgid "Searching for an available sysupgrade"
+#~ msgstr "Поиск доступного обновления системы"
+
+#~ msgid "The device runs the latest firmware version"
+#~ msgstr "Устройство работает на последней версии прошивки"
+
+#~ msgid "Building the sysupgrade image"
+#~ msgstr "Создание образа обновления системы"
+
+#~ msgid "Request in build queue"
+#~ msgstr "Запрос в очереди на сборку"
+
+#~ msgid "Advances Mode"
+#~ msgstr "Расширенный режим"
+
+#~ msgid "attended sysupgrade via rpcd and luci"
+#~ msgstr "выполните sysupgrade через rpcd и luci"

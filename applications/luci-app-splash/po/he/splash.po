@@ -418,3 +418,12 @@ msgstr "לבזבז רוחב פס עם הורדות או שידורים מיות�
 #: applications/luci-app-splash/luasrc/view/admin_status/splash.htm:241
 msgid "whitelisted"
 msgstr ""
+
+#~ msgid "By accepting these rules you can use this network for"
+#~ msgstr "ע\"י הסכמתך לחוקים האלו הנך יכול להשתמש ברשת זו בשביל"
+
+#~ msgid "hour(s). After this time you need to accept these rules again."
+#~ msgstr "שעה(ות). לאחר זמן זה תצטרך לקבל את החוקים האלו שוב."
+
+#~ msgid "the owner of this access point."
+#~ msgstr "הבעלים של נקודת גישה זו."

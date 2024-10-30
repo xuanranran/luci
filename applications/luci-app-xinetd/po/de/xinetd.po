@@ -108,22 +108,6 @@ msgstr "IPv6"
 msgid "Identification"
 msgstr "Identifikation"
 
-#: applications/luci-app-xinetd/htdocs/luci-static/resources/view/xinetd/xinetd.js:212
-msgid ""
-"Informations that should be logged for this service in case of a failed "
-"connection"
-msgstr ""
-"Informationen die im Falle einer fehlgeschlagenen Verbindung protokolliert "
-"werden sollen"
-
-#: applications/luci-app-xinetd/htdocs/luci-static/resources/view/xinetd/xinetd.js:203
-msgid ""
-"Informations that should be logged for this service in case of successful "
-"connection"
-msgstr ""
-"Informationen die im Falle einer erfolgreichen Verbindung protokolliert "
-"werden sollen"
-
 #: applications/luci-app-xinetd/htdocs/luci-static/resources/view/xinetd/xinetd.js:84
 #: applications/luci-app-xinetd/htdocs/luci-static/resources/view/xinetd/xinetd.js:137
 msgid "Invalid character"
@@ -314,6 +298,18 @@ msgstr "Benutzer-ID des Server-Prozesses für diesen Server"
 msgid "User ID of the remote user"
 msgstr "Benutzer-ID des Remote Users"
 
+#: applications/luci-app-xinetd/htdocs/luci-static/resources/view/xinetd/xinetd.js:212
+msgid "What to log for failed connections"
+msgstr ""
+"Informationen die im Falle einer fehlgeschlagenen Verbindung protokolliert "
+"werden sollen"
+
+#: applications/luci-app-xinetd/htdocs/luci-static/resources/view/xinetd/xinetd.js:203
+msgid "What to log for successful connections"
+msgstr ""
+"Informationen die im Falle einer erfolgreichen Verbindung protokolliert "
+"werden sollen"
+
 #: applications/luci-app-xinetd/root/usr/share/luci/menu.d/luci-app-xinetd.json:3
 msgid "Xinetd"
 msgstr "Xinetd"
@@ -347,3 +343,9 @@ msgstr "strombasierter Dienst"
 #: applications/luci-app-xinetd/htdocs/luci-static/resources/view/xinetd/xinetd.js:66
 msgid "yes"
 msgstr "ja"
+
+#~ msgid "Redirect incoming requests to this IP address:port."
+#~ msgstr "Eingehende Anfragen an diese IP-Adresse:Port umleiten."
+
+#~ msgid "Port already in use by service \"%s\""
+#~ msgstr "Dieser Port wird bereits vom Service \"%s\" verwendet"

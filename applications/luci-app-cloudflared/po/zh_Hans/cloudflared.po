@@ -204,3 +204,6 @@ msgstr "警告"
 #: applications/luci-app-cloudflared/htdocs/luci-static/resources/view/cloudflared/config.js:95
 msgid "Warning"
 msgstr "警告"
+
+#~ msgid "Data center"
+#~ msgstr "数据中心"

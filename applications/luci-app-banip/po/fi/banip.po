@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-01-06 10:09+0000\n"
+"PO-Revision-Date: 2024-10-11 13:44+0000\n"
 "Last-Translator: Hannu Nyman <hannu.nyman@iki.fi>\n"
 "Language-Team: Finnish <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationsbanip/fi/>\n"
@@ -8,7 +8,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.4-dev\n"
+"X-Generator: Weblate 5.8-dev\n"
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/setreport.js:78
 msgid "-- Set Selection --"
@@ -267,7 +267,7 @@ msgstr ""
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:339
 msgid "Download Insecure"
-msgstr ""
+msgstr "Lataa turvattomasti"
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:312
 msgid "Download Parameters"
@@ -1111,5 +1111,140 @@ msgstr ""
 msgid "warn"
 msgstr ""
 
-#~ msgid "0"
-#~ msgstr "0"
+#~ msgid "Apply & Restart"
+#~ msgstr "Käynnistä uudelleen"
+
+#~ msgid "Network Interfaces"
+#~ msgstr "Verkkoliitynnät"
+
+#~ msgid "Active Subnets"
+#~ msgstr "Aktiiviset aliverkot"
+
+#~ msgid "Active Interfaces"
+#~ msgstr "Aktiiviset liitynnät"
+
+#~ msgid "Unable to save changes: %s"
+#~ msgstr "Muutoksia ei voitu tallentaa: %s"
+
+#~ msgid "-m limit --limit 2/sec (default)"
+#~ msgstr "-m limit --limit 2/sec (oletus)"
+
+#~ msgid "1 hour"
+#~ msgstr "1 tunti"
+
+#~ msgid "12 hours"
+#~ msgstr "12 tuntia"
+
+#~ msgid "24 hours"
+#~ msgstr "24 tuntia"
+
+#~ msgid "30 minutes"
+#~ msgstr "30 minuuttia"
+
+#~ msgid "6 hours"
+#~ msgstr "6 tuntia"
+
+#~ msgid "Action"
+#~ msgstr "Toiminta"
+
+#~ msgid "Active Sources"
+#~ msgstr "Aktiiviset lähteet"
+
+#~ msgid ""
+#~ "Add additional, non-banIP related IPSets e.g. for reporting and queries."
+#~ msgstr ""
+#~ "Lisää muita, ei-banIP:hen liittyviä IPSet-joukkoja esim. raportointia ja "
+#~ "kyselyjä varten."
+
+#~ msgid "Add this IP/CIDR to your local whitelist."
+#~ msgstr "Lisää tämä IP/CIDR paikalliseen sallittujen luetteloon."
+
+#~ msgid "Additional Settings"
+#~ msgstr "Lisäasetukset"
+
+#~ msgid "Additional trigger delay in seconds before banIP processing begins."
+#~ msgstr ""
+#~ "Ylimääräinen käynnistysviive sekunteina ennen banIP-käsittelyn "
+#~ "aloittamista."
+
+#~ msgid "Advanced E-Mail Settings"
+#~ msgstr "Sähköpostin lisäasetukset"
+
+#~ msgid "Advanced Log Settings"
+#~ msgstr "Lokin lisäasetukset"
+
+#~ msgid ""
+#~ "Assign one or more relevant firewall chains to banIP. The default chain "
+#~ "used by banIP is 'forwarding_lan_rule'."
+#~ msgstr ""
+#~ "Määritä yksi tai useampi asiaankuuluva palomuuriketju banIP:lle. BanIP:n "
+#~ "käyttämä oletusketju on 'forwarding_lan_rule'."
+
+#~ msgid ""
+#~ "Assign one or more relevant firewall chains to banIP. The default chain "
+#~ "used by banIP is 'forwarding_wan_rule'."
+#~ msgstr ""
+#~ "Määritä yksi tai useampi asiaankuuluva palomuuriketju banIP:lle. BanIP:n "
+#~ "käyttämä oletusketju on 'forwarding_wan_rule'."
+
+#~ msgid ""
+#~ "Assign one or more relevant firewall chains to banIP. The default chain "
+#~ "used by banIP is 'input_lan_rule'."
+#~ msgstr ""
+#~ "Määritä yksi tai useampi asiaankuuluva palomuuriketju banIP:lle. BanIP:n "
+#~ "käyttämä oletusketju on 'input_lan_rule'."
+
+#~ msgid ""
+#~ "Assign one or more relevant firewall chains to banIP. The default chain "
+#~ "used by banIP is 'input_wan_rule'."
+#~ msgstr ""
+#~ "Määritä yksi tai useampi asiaankuuluva palomuuriketju banIP:lle. BanIP:n "
+#~ "käyttämä oletusketju on \"input_wan_rule\"."
+
+#~ msgid "Auto Blacklist"
+#~ msgstr "Automaattinen kieltolista"
+
+#~ msgid "Auto Whitelist"
+#~ msgstr "Automaattinen sallittujen lista"
+
+#~ msgid "Edit Blacklist"
+#~ msgstr "Editoi estolistaa"
+
+#~ msgid "Edit Whitelist"
+#~ msgstr "Editoi sallittujen lista"
+
+#~ msgid "Enable DST logging"
+#~ msgstr "Ota DST-lokitus käyttöön"
+
+#~ msgid "Enable SRC logging"
+#~ msgstr "Ota SRC-lokitus käyttöön"
+
+#~ msgid "Local Sources"
+#~ msgstr "Paikalliset lähteet"
+
+#~ msgid "Name"
+#~ msgstr "Nimi"
+
+#~ msgid "Refresh Timer"
+#~ msgstr "Päivitä ajastin"
+
+#~ msgid "Remove an existing job"
+#~ msgstr "Poista olemassa oleva työ"
+
+#~ msgid "Save"
+#~ msgstr "Tallenna"
+
+#~ msgid "Status / Version"
+#~ msgstr "Tila / versio"
+
+#~ msgid "Type"
+#~ msgstr "Tyyppi"
+
+#~ msgid "Load"
+#~ msgstr "Kuormitus"
+
+#~ msgid "Loading"
+#~ msgstr "Ladataan"
+
+#~ msgid "Low Priority Service"
+#~ msgstr "Matala sovelluksen prioriteetti"

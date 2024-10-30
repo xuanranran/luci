@@ -141,3 +141,6 @@ msgstr "جزئي (٪ d /٪ d)"
 msgctxt "Only read permissions granted"
 msgid "readonly"
 msgstr "قراءة فقط"
+
+#~ msgid "Use plain password"
+#~ msgstr "استخدم كلمة مرور عادية"

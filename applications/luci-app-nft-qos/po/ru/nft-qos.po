@@ -266,3 +266,6 @@ msgstr "например, https, 23, (разделитель - запятая)"
 #: applications/luci-app-nft-qos/luasrc/view/nft-qos/rate.htm:44
 msgid "kB"
 msgstr "кБ"
+
+#~ msgid "MAC (optional)"
+#~ msgstr "MAC (необязательно)"

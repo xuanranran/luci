@@ -425,3 +425,6 @@ msgstr "slösa bandbredd med onödiga nerladdningar eller strömmar"
 #: applications/luci-app-splash/luasrc/view/admin_status/splash.htm:241
 msgid "whitelisted"
 msgstr "vitlistad"
+
+#~ msgid "Contact"
+#~ msgstr "Kontakt"

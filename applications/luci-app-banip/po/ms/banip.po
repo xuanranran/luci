@@ -1111,14 +1111,5 @@ msgstr ""
 msgid "warn"
 msgstr ""
 
-#~ msgid "-100"
-#~ msgstr "-100"
-
-#~ msgid "-300"
-#~ msgstr "-300"
-
-#~ msgid "-400"
-#~ msgstr "-400"
-
-#~ msgid "0"
-#~ msgstr "0"
+#~ msgid "Advanced"
+#~ msgstr "Lanjutan"

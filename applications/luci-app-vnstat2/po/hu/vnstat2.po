@@ -166,3 +166,6 @@ msgid ""
 msgstr ""
 "A vnStat egy hálózatiforgalom-megfigyelő a Linuxhoz, amely megtartja a "
 "kiválasztott csatolók hálózati forgalmának naplóját."
+
+#~ msgid "vnStat Traffic Monitor"
+#~ msgstr "vnStat forgalom-megfigyelő"

@@ -144,3 +144,6 @@ msgstr "delvis (%d/%d)"
 msgctxt "Only read permissions granted"
 msgid "readonly"
 msgstr "skrivskyddad"
+
+#~ msgid "Use plain password"
+#~ msgstr "Använd lösenord i klartext"
