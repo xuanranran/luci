@@ -1,23 +1,23 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2025-06-19 08:24+0000\n"
-"Last-Translator: ZW <roc_fe@users.noreply.hosted.weblate.org>\n"
+"PO-Revision-Date: 2026-02-11 13:56+0000\n"
+"Last-Translator: EESF-2 <eesf-2@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Chinese (Traditional Han script) <https://hosted.weblate.org/"
 "projects/openwrt/luciapplicationsunbound/zh_Hant/>\n"
 "Language: zh_Hant\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.12.1\n"
+"X-Generator: Weblate 5.16-dev\n"
 
 #: applications/luci-app-unbound/htdocs/luci-static/resources/view/unbound/configure.js:165
 #: applications/luci-app-unbound/htdocs/luci-static/resources/view/unbound/zone-details.js:66
 msgid "(none)"
-msgstr "（無）"
+msgstr "(無)"
 
 #: applications/luci-app-unbound/htdocs/luci-static/resources/view/unbound/zones.js:73
 msgid "(root)"
-msgstr "（根）"
+msgstr "(根)"
 
 #: applications/luci-app-unbound/htdocs/luci-static/resources/view/unbound/zones.js:117
 msgid ", and <var>%s</var> entries"
@@ -25,7 +25,7 @@ msgstr "，及 <var>%s</var> 條目"
 
 #: applications/luci-app-unbound/htdocs/luci-static/resources/view/unbound/zones.js:102
 msgid ", and try <var>%s</var>"
-msgstr ",並嘗試 <var>%s</var>"
+msgstr "，並嘗試 <var>%s</var>"
 
 #: applications/luci-app-unbound/htdocs/luci-static/resources/view/unbound/zones.js:60
 msgid "AXFR"
@@ -53,7 +53,7 @@ msgstr "記錄不在區域中時允許遞迴查詢"
 
 #: applications/luci-app-unbound/htdocs/luci-static/resources/view/unbound/zone-details.js:52
 msgid "Authoritative (zone file)"
-msgstr "權威（區域檔案）"
+msgstr "權威 (區域檔案)"
 
 #: applications/luci-app-unbound/htdocs/luci-static/resources/view/unbound/configure.js:46
 msgid "Basic"
@@ -101,7 +101,7 @@ msgstr "DNS快取"
 
 #: applications/luci-app-unbound/htdocs/luci-static/resources/view/unbound/zone-details.js:64
 msgid "DNS Plugin"
-msgstr "DNS外掛程式"
+msgstr "DNS外掛"
 
 #: applications/luci-app-unbound/htdocs/luci-static/resources/view/unbound/zone-details.js:77
 msgid "DNS over TLS"
@@ -109,7 +109,7 @@ msgstr "以TLS加密的DNS"
 
 #: applications/luci-app-unbound/htdocs/luci-static/resources/view/unbound/configure.js:113
 msgid "DNS64 Prefix"
-msgstr "DNS64 字首"
+msgstr "DNS64 前綴"
 
 #: applications/luci-app-unbound/htdocs/luci-static/resources/view/unbound/configure.js:69
 msgid "DNSSEC NTP Fix"
@@ -123,7 +123,7 @@ msgstr "預設"
 
 #: applications/luci-app-unbound/htdocs/luci-static/resources/view/unbound/configure.js:180
 msgid "Denied (nxdomain)"
-msgstr "否認（nxdomain）"
+msgstr "否認 (nxdomain)"
 
 #: applications/luci-app-unbound/htdocs/luci-static/resources/view/unbound/zone-details.js:35
 msgid "Directed Zone"
@@ -143,7 +143,7 @@ msgstr "用於驗證TLS憑證的域名"
 
 #: applications/luci-app-unbound/htdocs/luci-static/resources/view/unbound/configure.js:173
 msgid "Domain suffix for this router and DHCP clients"
-msgstr "此路由器和 DHCP 客戶端的域名字尾"
+msgstr "此路由器和 DHCP 客戶端的域名稱尾"
 
 #: applications/luci-app-unbound/htdocs/luci-static/resources/view/unbound/configure.js:262
 msgid "EDNS Size"
@@ -156,7 +156,7 @@ msgstr "編輯'"
 
 #: applications/luci-app-unbound/htdocs/luci-static/resources/view/unbound/files.js:92
 msgid "Edit 'server:' clause options for 'include:"
-msgstr "編輯“server:”子選項，位於'include:"
+msgstr "編輯\"server:\"子選項，位於'include:"
 
 #: applications/luci-app-unbound/htdocs/luci-static/resources/view/unbound/zone-details.js:36
 msgid ""
@@ -166,23 +166,23 @@ msgstr "編輯Unbound使用的轉送、存根或區域檔案快取區域，而�
 
 #: applications/luci-app-unbound/htdocs/luci-static/resources/view/unbound/files.js:103
 msgid "Edit clauses such as 'forward-zone:' for 'include:"
-msgstr "編輯子選項，例如“forward-zone:”，位於'include:"
+msgstr "編輯子選項，例如\"forward-zone:\"，位於'include:"
 
 #: applications/luci-app-unbound/htdocs/luci-static/resources/view/unbound/files.js:101
 msgid "Edit: Extended"
-msgstr "編輯：擴充套件"
+msgstr "編輯: 擴充套件"
 
 #: applications/luci-app-unbound/htdocs/luci-static/resources/view/unbound/files.js:90
 msgid "Edit: Server"
-msgstr "編輯：伺服器"
+msgstr "編輯: 伺服器"
 
 #: applications/luci-app-unbound/htdocs/luci-static/resources/view/unbound/files.js:54
 msgid "Edit: UCI"
-msgstr "編輯：UCI"
+msgstr "編輯: UCI"
 
 #: applications/luci-app-unbound/htdocs/luci-static/resources/view/unbound/files.js:78
 msgid "Edit: Unbound"
-msgstr "編輯：Unbound"
+msgstr "編輯: Unbound"
 
 #: applications/luci-app-unbound/htdocs/luci-static/resources/view/unbound/zones.js:124
 msgid "Enable"
@@ -254,19 +254,19 @@ msgstr "檔案"
 
 #: applications/luci-app-unbound/htdocs/luci-static/resources/view/unbound/configure.js:107
 msgid "Filter Entire Subnet"
-msgstr "過濾整個子網"
+msgstr "篩選整個子網"
 
 #: applications/luci-app-unbound/htdocs/luci-static/resources/view/unbound/configure.js:98
 msgid "Filter Localhost Rebind"
-msgstr "過濾本地主機重繫結"
+msgstr "篩選本地主機重綁定"
 
 #: applications/luci-app-unbound/htdocs/luci-static/resources/view/unbound/configure.js:106
 msgid "Filter Private Address"
-msgstr "過濾私有地址"
+msgstr "篩選私有位址"
 
 #: applications/luci-app-unbound/htdocs/luci-static/resources/view/unbound/configure.js:102
 msgid "Filter Private Rebind"
-msgstr "過濾私有地址重繫結"
+msgstr "篩選私有位址重綁定"
 
 #: applications/luci-app-unbound/htdocs/luci-static/resources/view/unbound/zones.js:58
 msgid "Forward"
@@ -274,7 +274,7 @@ msgstr "轉送"
 
 #: applications/luci-app-unbound/htdocs/luci-static/resources/view/unbound/zone-details.js:54
 msgid "Forward (simple handoff)"
-msgstr "轉送（簡單切換）"
+msgstr "轉送 (簡單切換)"
 
 #: applications/luci-app-unbound/htdocs/luci-static/resources/view/unbound/zones.js:58
 msgid "Forward TLS"
@@ -290,7 +290,7 @@ msgstr "授予luci-app-unbound存取UCI的權限"
 
 #: applications/luci-app-unbound/htdocs/luci-static/resources/view/unbound/configure.js:194
 msgid "Host FQDN, All Addresses"
-msgstr "主機 FQDN，所有地址"
+msgstr "主機 FQDN，所有位址"
 
 #: applications/luci-app-unbound/htdocs/luci-static/resources/view/unbound/configure.js:211
 msgid "Host Records"
@@ -306,11 +306,11 @@ msgstr "主機/MX/SRV/CNAME RR"
 
 #: applications/luci-app-unbound/htdocs/luci-static/resources/view/unbound/configure.js:193
 msgid "Hostname, All Addresses"
-msgstr "主機名，所有地址"
+msgstr "主機名，所有位址"
 
 #: applications/luci-app-unbound/htdocs/luci-static/resources/view/unbound/configure.js:192
 msgid "Hostname, Primary Address"
-msgstr "主機名，主要地址"
+msgstr "主機名，主要位址"
 
 #: applications/luci-app-unbound/htdocs/luci-static/resources/view/unbound/configure.js:188
 msgid "How to enter the LAN or local network router in DNS"
@@ -346,7 +346,7 @@ msgstr "忽略"
 
 #: applications/luci-app-unbound/htdocs/luci-static/resources/view/unbound/configure.js:195
 msgid "Interface FQDN, All Addresses"
-msgstr "介面 FQDN，所有地址"
+msgstr "介面 FQDN，所有位址"
 
 #: applications/luci-app-unbound/htdocs/luci-static/resources/view/unbound/configure.js:188
 msgid "LAN DNS"
@@ -390,7 +390,7 @@ msgstr "本地域名"
 
 #: applications/luci-app-unbound/htdocs/luci-static/resources/view/unbound/configure.js:177
 msgid "Local Domain Type"
-msgstr "本地域名型別"
+msgstr "本地域名類型"
 
 #: applications/luci-app-unbound/htdocs/luci-static/resources/view/unbound/configure.js:220
 msgid "Local Host, Encrypted"
@@ -435,7 +435,7 @@ msgstr "記憶體資源"
 #: applications/luci-app-unbound/htdocs/luci-static/resources/view/unbound/configure.js:90
 #: applications/luci-app-unbound/htdocs/luci-static/resources/view/unbound/configure.js:145
 msgid "Networks that may trigger Unbound to reload (avoid wan6)"
-msgstr "可觸發 Unbound 重新載入的網路（避免 wan6）"
+msgstr "可觸發 Unbound 重新載入的網路 (避免 wan6)"
 
 #: applications/luci-app-unbound/htdocs/luci-static/resources/view/unbound/configure.js:135
 msgid "Networks to consider LAN (served) beyond those served by DHCP"
@@ -451,7 +451,7 @@ msgstr "無項目"
 
 #: applications/luci-app-unbound/htdocs/luci-static/resources/view/unbound/configure.js:105
 msgid "No Filter"
-msgstr "無過濾器"
+msgstr "無篩選器"
 
 #: applications/luci-app-unbound/htdocs/luci-static/resources/view/unbound/configure.js:218
 msgid "No Remote Control"
@@ -480,20 +480,19 @@ msgstr ""
 #: applications/luci-app-unbound/htdocs/luci-static/resources/view/unbound/zones.js:41
 msgid ""
 "Note: SSL/TLS library is missing an API. Please review syslog. >> logread ..."
-msgstr "注意：SSL/TLS庫缺少 API。請檢視 syslog。 >> logread ..."
+msgstr "注意: SSL/TLS庫缺少 API。請檢視 syslog。>> logread ..."
 
 #: applications/luci-app-unbound/htdocs/luci-static/resources/view/unbound/configure.js:41
 msgid ""
 "Note: local DNS is configured to look at odhpcd, but odhpcd UCI lease "
 "trigger is incorrectly set:"
-msgstr "注意：本地DNS是設置來查看odhpcd，但是odhpcd UCI租約觸發器設置不正確："
+msgstr "注意: 本地DNS是設置來查看odhpcd，但是odhpcd UCI租約觸發器設置不正確:"
 
 #: applications/luci-app-unbound/htdocs/luci-static/resources/view/unbound/zones.js:45
 msgid ""
 "Organize directed forward, stub, and authoritative zones <a href=\"%s\" "
 "target=\"_blank\">(help)</a>."
-msgstr ""
-"組織定向轉送、存根和權威區域<a href=\"%s\" target=\"_blank\">（幫助）</a>。"
+msgstr "組織定向轉送、存根和權威區域<a href=\"%s\" target=\"_blank\"> (幫助) </a>。"
 
 #: applications/luci-app-unbound/htdocs/luci-static/resources/view/unbound/configure.js:189
 msgid "Override the WAN side router entry in DNS"
@@ -510,7 +509,7 @@ msgstr "伺服器將接收查詢的埠"
 
 #: applications/luci-app-unbound/htdocs/luci-static/resources/view/unbound/configure.js:114
 msgid "Prefix for generated DNS64 addresses"
-msgstr "產生 DNS64 位址的字首"
+msgstr "產生 DNS64 位址的前綴"
 
 #: applications/luci-app-unbound/htdocs/luci-static/resources/view/unbound/configure.js:277
 msgid "Prevent client query overload; zero is off"
@@ -596,19 +595,19 @@ msgstr "該區域的伺服器；請參閱 README.md 以取得選項格式"
 
 #: applications/luci-app-unbound/htdocs/luci-static/resources/view/unbound/files.js:124
 msgid "Show: Adblock"
-msgstr "顯示：Adblock"
+msgstr "顯示: Adblock"
 
 #: applications/luci-app-unbound/htdocs/luci-static/resources/view/unbound/files.js:113
 msgid "Show: DHCP"
-msgstr "顯示：DHCP"
+msgstr "顯示: DHCP"
 
 #: applications/luci-app-unbound/htdocs/luci-static/resources/view/unbound/files.js:68
 msgid "Show: Unbound"
-msgstr "顯示：Unbound"
+msgstr "顯示: Unbound"
 
 #: applications/luci-app-unbound/htdocs/luci-static/resources/view/unbound/configure.js:59
 msgid "Skip UCI and use /etc/unbound/unbound.conf"
-msgstr "跳過 UCI 並使用 /etc/unbound/unbound.conf"
+msgstr "略過 UCI 並使用 /etc/unbound/unbound.conf"
 
 #: applications/luci-app-unbound/htdocs/luci-static/resources/view/unbound/configure.js:239
 msgid "Small"
@@ -616,7 +615,7 @@ msgstr "小"
 
 #: applications/luci-app-unbound/htdocs/luci-static/resources/view/unbound/configure.js:182
 msgid "Static (local only)"
-msgstr "靜態（僅限本地）"
+msgstr "靜態 (僅限本地)"
 
 #: applications/luci-app-unbound/htdocs/luci-static/resources/view/unbound/status.js:90
 msgid "Statistics"
@@ -632,11 +631,11 @@ msgstr "嚴格最小化"
 
 #: applications/luci-app-unbound/htdocs/luci-static/resources/view/unbound/configure.js:258
 msgid "Strict version of 'query minimize' but it can break DNS"
-msgstr "嚴格版本的“最小化查詢”，但會破壞 DNS 標準"
+msgstr "嚴格版本的\"最小化查詢\"，但會破壞 DNS 標準"
 
 #: applications/luci-app-unbound/htdocs/luci-static/resources/view/unbound/zone-details.js:53
 msgid "Stub (forced recursion)"
-msgstr "存根（強制遞迴）"
+msgstr "存根 (強制遞迴)"
 
 #: applications/luci-app-unbound/htdocs/luci-static/resources/view/unbound/zone-details.js:93
 msgid "TLS Name Index"
@@ -663,17 +662,17 @@ msgstr "顯示'"
 #: applications/luci-app-unbound/htdocs/luci-static/resources/view/unbound/status.js:118
 msgid ""
 "This shows 'ubound-control dump_cache' for auditing records including DNSSEC."
-msgstr "這顯示了用於審核(包括DNSSEC)的記錄 'ubound-control dump_cache'。"
+msgstr "這顯示了用於審核(包含DNSSEC)的記錄 'ubound-control dump_cache'。"
 
 #: applications/luci-app-unbound/htdocs/luci-static/resources/view/unbound/status.js:94
 msgid ""
 "This shows Unbound 'local-data:' entries from default, .conf, or control."
-msgstr "顯示來自預設、.conf 或 control 的 Unbound “local-data:”條目。"
+msgstr "顯示來自預設、.conf 或 control 的 Unbound \"local-data:\"條目。"
 
 #: applications/luci-app-unbound/htdocs/luci-static/resources/view/unbound/status.js:106
 msgid ""
 "This shows Unbound 'local-zone:' entries from default, .conf, or control."
-msgstr "顯示來自預設、.conf 或 control 的 Unbound “local-zone:”條目。"
+msgstr "顯示來自預設、.conf 或 control 的 Unbound \"local-zone:\"條目。"
 
 #: applications/luci-app-unbound/htdocs/luci-static/resources/view/unbound/status.js:82
 msgid "This shows Unbound self reported performance statistics."
@@ -689,7 +688,7 @@ msgstr "小"
 
 #: applications/luci-app-unbound/htdocs/luci-static/resources/view/unbound/configure.js:183
 msgid "Transparent (local/global)"
-msgstr "透明（本地/全球）"
+msgstr "透明 (本地/全球)"
 
 #: applications/luci-app-unbound/htdocs/luci-static/resources/view/unbound/configure.js:89
 #: applications/luci-app-unbound/htdocs/luci-static/resources/view/unbound/configure.js:144
@@ -702,7 +701,7 @@ msgstr "類別"
 
 #: applications/luci-app-unbound/root/usr/share/luci/menu.d/luci-app-unbound.json:19
 msgid "Unbound"
-msgstr "Unbound(DNS服務)"
+msgstr "Unbound"
 
 #: applications/luci-app-unbound/htdocs/luci-static/resources/view/unbound/configure.js:30
 msgid ""
@@ -711,7 +710,7 @@ msgid ""
 "a>."
 msgstr ""
 "Unbound <a href=\"%s\" target=\"_blank\">(NLnet Labs)</a>是一個驗證、遞迴和快"
-"取 DNS 解析器<a href=\"%s\" target=\"_blank\">（幫助）</a>。"
+"取 DNS 解析器<a href=\"%s\" target=\"_blank\"> (幫助) </a>。"
 
 #: applications/luci-app-unbound/htdocs/luci-static/resources/view/unbound/configure.js:216
 msgid "Unbound Control App"
@@ -731,11 +730,11 @@ msgstr "未定義"
 
 #: applications/luci-app-unbound/htdocs/luci-static/resources/view/unbound/zone-details.js:73
 msgid "Use 'resolv.conf.auto'"
-msgstr "使用“resolv.conf.auto”"
+msgstr "使用\"resolv.conf.auto\""
 
 #: applications/luci-app-unbound/htdocs/luci-static/resources/view/unbound/configure.js:168
 msgid "Use DHCPv4 MAC to discover IP6 hosts SLAAC (EUI64)"
-msgstr "使用 DHCPv4 MAC 發現 IP6 主機 SLAAC（EUI64）"
+msgstr "使用 DHCPv4 MAC 發現 IP6 主機 SLAAC (EUI64)"
 
 #: applications/luci-app-unbound/htdocs/luci-static/resources/view/unbound/configure.js:201
 msgid "Use Upstream"
@@ -763,7 +762,7 @@ msgstr "WAN 網路"
 
 #: applications/luci-app-unbound/htdocs/luci-static/resources/view/unbound/zone-details.js:57
 msgid "Zone (Domain) names included in this zone combination"
-msgstr "包含在此區域組合中的區域（域）名稱"
+msgstr "包含在此區域組合中的區域 (域) 名稱"
 
 #: applications/luci-app-unbound/htdocs/luci-static/resources/view/unbound/zone-details.js:98
 msgid "Zone Download URL"
@@ -775,7 +774,7 @@ msgstr "區域名稱"
 
 #: applications/luci-app-unbound/htdocs/luci-static/resources/view/unbound/zone-details.js:50
 msgid "Zone Type"
-msgstr "區域型別"
+msgstr "區域類型"
 
 #: applications/luci-app-unbound/htdocs/luci-static/resources/view/unbound/zones.js:44
 #: applications/luci-app-unbound/htdocs/luci-static/resources/view/unbound/zones.js:64

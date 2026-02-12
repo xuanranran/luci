@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-01-11 05:01+0000\n"
-"Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
+"PO-Revision-Date: 2026-02-05 09:48+0000\n"
+"Last-Translator: Maksim <m4ksp86@ya.ru>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationsbanip/ru/>\n"
 "Language: ru\n"
@@ -9,7 +9,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 5.15.1\n"
+"X-Generator: Weblate 5.16-dev\n"
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:602
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:671
@@ -49,15 +49,15 @@ msgstr "-- по умолчанию --"
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:234
 msgid "<IP-Address>"
-msgstr ""
+msgstr "<IP-адрес>"
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:236
 msgid "<IP-Address> <Netmask>"
-msgstr ""
+msgstr "<IP-адрес> <Маска сети>"
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:235
 msgid "<IP-Address><CSV-Seperator>"
-msgstr ""
+msgstr "<IP-адреса><CSV-разделитель>"
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:237
 msgid "<Suricata Syntax>"
@@ -272,16 +272,8 @@ msgstr "Коллекция IP-адресов, основанная на номе
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:40
 msgid ""
 "Configuration of the banIP package to ban incoming and outgoing IPs via "
-"named nftables Sets. For further information please check the <a "
-"style=\"color:#37c;font-weight:bold;\" href=\"https://github.com/openwrt/"
-"packages/blob/master/net/banip/files/README.md\" target=\"_blank\" "
-"rel=\"noreferrer noopener\" >online documentation</a>"
+"named nftables Sets. For further information please check the %s."
 msgstr ""
-"Конфигурация пакета banIP для запрета входящих и исходящих IP-адресов через "
-"именованные наборы nftables. Для получения дополнительной информации "
-"ознакомьтесь с <a style=\"color:#37c;font-weight:bold;\" href=\"https://"
-"github.com/openwrt/packages/blob/master/net/banip/files/README.md\" "
-"target=\"_blank\" rel=\"noreferrer noopener\" >онлайн-документацией</a>"
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/setreport.js:211
 msgid "Count"
@@ -1340,6 +1332,10 @@ msgstr "nginx: подозрительный IP-адрес"
 msgid "notice"
 msgstr "уведомление"
 
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:41
+msgid "online documentation"
+msgstr ""
+
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:600
 msgid "openvpn TLS error"
 msgstr "openvpn: ошибка TLS"
@@ -1363,6 +1359,20 @@ msgstr "sshd: неудачная попытка входа"
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:552
 msgid "warn"
 msgstr "предупреждение"
+
+#~ msgid ""
+#~ "Configuration of the banIP package to ban incoming and outgoing IPs via "
+#~ "named nftables Sets. For further information please check the <a "
+#~ "style=\"color:#37c;font-weight:bold;\" href=\"https://github.com/openwrt/"
+#~ "packages/blob/master/net/banip/files/README.md\" target=\"_blank\" "
+#~ "rel=\"noreferrer noopener\" >online documentation</a>"
+#~ msgstr ""
+#~ "Конфигурация пакета banIP для запрета входящих и исходящих IP-адресов "
+#~ "через именованные наборы nftables. Для получения дополнительной "
+#~ "информации ознакомьтесь с <a style=\"color:#37c;font-weight:bold;\" "
+#~ "href=\"https://github.com/openwrt/packages/blob/master/net/banip/files/"
+#~ "README.md\" target=\"_blank\" rel=\"noreferrer noopener\" >онлайн-"
+#~ "документацией</a>"
 
 #~ msgid "<DATE><IPv4><SPACE>"
 #~ msgstr "<DATE><IPv4><SPACE>"

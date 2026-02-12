@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2019-07-23 22:17-0300\n"
-"PO-Revision-Date: 2026-01-10 04:39+0000\n"
-"Last-Translator: Juan Benites <benitesjn@gmail.com>\n"
+"PO-Revision-Date: 2026-02-11 13:57+0000\n"
+"Last-Translator: Franco Castillo <castillofrancodamian@gmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationsbanip/es/>\n"
 "Language: es\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.15.1\n"
+"X-Generator: Weblate 5.16-dev\n"
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:602
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:671
@@ -47,7 +47,7 @@ msgstr "-- Selección de conjuntos --"
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:775
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:796
 msgid "-- default --"
-msgstr "-- por defecto --"
+msgstr "-- predeterminado --"
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:234
 msgid "<IP-Address>"
@@ -276,16 +276,8 @@ msgstr "Direcciones IP basadas en Números de Sistema Autónomo (ASN)."
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:40
 msgid ""
 "Configuration of the banIP package to ban incoming and outgoing IPs via "
-"named nftables Sets. For further information please check the <a "
-"style=\"color:#37c;font-weight:bold;\" href=\"https://github.com/openwrt/"
-"packages/blob/master/net/banip/files/README.md\" target=\"_blank\" "
-"rel=\"noreferrer noopener\" >online documentation</a>"
+"named nftables Sets. For further information please check the %s."
 msgstr ""
-"Configuración del paquete banIP para prohibir IP entrantes y salientes a "
-"través de conjuntos nombrados de nftables. Para más información, por favor "
-"consulte la <a style=\"color:#37c;font-weight:bold;\" href=\"https://"
-"github.com/openwrt/packages/blob/master/net/banip/files/README.md\" "
-"target=\"_blank\" rel=\"noreferrer noopener\" >documentación en línea</a>"
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/setreport.js:211
 msgid "Count"
@@ -1352,6 +1344,10 @@ msgstr "IP sospechosa de nginx"
 msgid "notice"
 msgstr "aviso"
 
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:41
+msgid "online documentation"
+msgstr ""
+
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:600
 msgid "openvpn TLS error"
 msgstr "Error TLS de openvpn"
@@ -1375,6 +1371,20 @@ msgstr "Ingreso fallido sshd"
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:552
 msgid "warn"
 msgstr "advertir"
+
+#~ msgid ""
+#~ "Configuration of the banIP package to ban incoming and outgoing IPs via "
+#~ "named nftables Sets. For further information please check the <a "
+#~ "style=\"color:#37c;font-weight:bold;\" href=\"https://github.com/openwrt/"
+#~ "packages/blob/master/net/banip/files/README.md\" target=\"_blank\" "
+#~ "rel=\"noreferrer noopener\" >online documentation</a>"
+#~ msgstr ""
+#~ "Configuración del paquete banIP para prohibir IP entrantes y salientes a "
+#~ "través de conjuntos nombrados de nftables. Para más información, por "
+#~ "favor consulte la <a style=\"color:#37c;font-weight:bold;\" "
+#~ "href=\"https://github.com/openwrt/packages/blob/master/net/banip/files/"
+#~ "README.md\" target=\"_blank\" rel=\"noreferrer noopener\" >documentación "
+#~ "en línea</a>"
 
 #~ msgid "<DATE><IPv4><SPACE>"
 #~ msgstr "<FECHA><IPv4><ESPACIO>"
